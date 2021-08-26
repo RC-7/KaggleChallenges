@@ -1,0 +1,4 @@
+Number of survivors
+Survived,342
+Number of passengers in dataset: 891
+Number of unique ticket numbers: 134
