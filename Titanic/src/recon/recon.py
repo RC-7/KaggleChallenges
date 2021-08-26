@@ -51,6 +51,33 @@ df['Age'] = pd.qcut(df['Age'], 10, labels=False, precision=0)
 # plt.title("Correlation matrix for features in dataset: " + dataset_name)
 # plt.show()
 
+
+#  Plot to view Marriage Bins
+fig, axs = plt.subplots()
+sns.countplot(x='Married', hue='Survived', data=df)
+
+plt.xlabel('Title', size=15, labelpad=20)
+plt.ylabel('Passenger Count', size=15, labelpad=20)
+plt.tick_params(axis='x', labelsize=15)
+plt.tick_params(axis='y', labelsize=15)
+
+plt.legend(['Not Survived', 'Survived'])
+plt.title('Survival Counts in Married Parameter')
+plt.show()
+
+#  Plot to view Title Bins
+fig, axs = plt.subplots()
+sns.countplot(x='Title', hue='Survived', data=df)
+
+plt.xlabel('Title', size=15, labelpad=20)
+plt.ylabel('Passenger Count', size=15, labelpad=20)
+plt.tick_params(axis='x', labelsize=15)
+plt.tick_params(axis='y', labelsize=15)
+
+plt.legend(['Not Survived', 'Survived'])
+plt.title('Survival Counts in Title Parameter')
+plt.show()
+
 df['Surname'] = df['Name'].map(lambda x: x.split(',')[0])
 df[['Surname']].to_csv('Surname.txt')
 
@@ -66,6 +93,10 @@ plt.show()
 TicketPrice, ax = plt.subplots()
 ax = df.plot.scatter(y='Fare', x='Pclass')
 plt.show()
+
+df['Title'] = df['Name'].map(lambda x: x.split(',')[1].split('.')[0])
+print(df[['Title']])
+print(df['Title'].value_counts())
 
 
 df.drop('PassengerId', inplace=True, axis=1)

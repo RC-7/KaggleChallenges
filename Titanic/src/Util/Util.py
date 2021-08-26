@@ -7,12 +7,15 @@ import sklearn.model_selection
 from matplotlib import pyplot as plt
 from sklearn.model_selection import validation_curve, GridSearchCV
 
+import seaborn as sns
+
 
 def group_by_sub_string(original_string, list_of_sub_strings):
     for substring in list_of_sub_strings:
         if original_string.find(substring) != -1:
             return substring
     return np.nan
+
 
 # TODO Add plotting ROC curves
 
@@ -62,8 +65,10 @@ def find_optimal_param(hyper_peram, model, X, y, output_file):
     print(grid_f.best_score_, file=open(output_file, 'a'))
     return grid_f.best_params_
 
+
 class Util:
     def __init__(self):
+        self.survivalPerTicket = {}
         self.configValues = {}
         try:
             config_file = open("../config.JSON")
@@ -73,7 +78,7 @@ class Util:
         self.dataPath = "../../data" if self.configValues["env"] == "Local" else "/kaggle/input"
 
         self.fullDf = pd.concat([pd.read_csv(self.dataPath + '/train.csv'),
-                                pd.read_csv(self.dataPath + '/test.csv')])
+                                 pd.read_csv(self.dataPath + '/test.csv')])
 
     def normalise(self, dataframe):
         pass
@@ -95,9 +100,23 @@ class Util:
         df['Surname'] = df['Name'].map(lambda x: x.split(',')[0])
         surname_count = self.fullDf.groupby('Surname').size()
         ticket_count = self.fullDf.groupby('Ticket').size()
+        # print(ticket_count)
+
+        # Ticket and familly survival rate.
+
+        df['Title'] = df['Name'].map(lambda x: x.split(',')[1].split('.')[0].strip())
+        df['Married'] = df['Title'].map(lambda x: x == 'Mr' or x == 'Mrs')
+        df[['Title']] = df[['Title']].replace(
+            dict.fromkeys(['Miss', 'Mrs', 'Ms', 'Mlle', 'Lady', 'Mme', 'the Countess', 'Dona'],
+                          'Miss'))
+        df[['Title']] = df[['Title']].replace(
+            dict.fromkeys(['Dr', 'Col', 'Major', 'Jonkheer', 'Capt', 'Sir', 'Don', 'Rev']
+                          , 'Special'))
+
         df['SurnameCount'] = df['Surname'].map(lambda x: surname_count[x])
+
         df['Ticket_Frequency'] = df['Ticket'].map(lambda x: ticket_count[x])
-        # df['Ticket_Frequency'] = df.groupby('Ticket')['Ticket'].transform('count')
+
         # Drop Surname column
         df.drop('Surname', inplace=True, axis=1)
         # Drop Name column
@@ -115,7 +134,7 @@ class Util:
         cabin_grouping = ['A', 'B', 'C', 'D', 'E', 'F', 'T', 'G', 'Unknown']
         df['CabinGrouping'] = df['Cabin'].map(lambda x: group_by_sub_string(x, cabin_grouping))
         df.drop('Cabin', inplace=True, axis=1)
-        df.drop('Ticket', inplace=True, axis=1)
+
         df['CabinGrouping'].replace({'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4, 'F': 5, 'T': 0, 'G': 7, 'Unknown': 8},
                                     inplace=True)
         # Fill Age Nan's
@@ -128,6 +147,10 @@ class Util:
         df['Fare'] = pd.qcut(df['Fare'], 13, labels=False, precision=0)
         df['Age'] = pd.qcut(df['Age'], 10, labels=False, precision=0)
         if train_set:
+            self.survivalPerTicket = df.groupby('Ticket')['Survived'].mean()
+
+            df['Ticket_percentage_survival'] = df['Ticket'].map(lambda x: self.survivalPerTicket[x] / ticket_count[x])
+            df.drop('Ticket', inplace=True, axis=1)
             if get_cv:
                 train, cv = sklearn.model_selection.train_test_split(df, test_size=0.22)
                 labels_train = train[['Survived']]
@@ -136,7 +159,11 @@ class Util:
                 return [train, labels_train, cv, labels_cv]
             labels = df[['Survived']]
             df.drop('Survived', inplace=True, axis=1)
-            return[df, labels]
+            return [df, labels]
 
         else:
+            # Use the men survival percentage if the ticket was not in the training set.
+            df['Ticket_percentage_survival'] = df['Ticket'].map(lambda x: self.survivalPerTicket[x] / ticket_count[x] \
+                if x in self.survivalPerTicket else self.survivalPerTicket.mean())
+            df.drop('Ticket', inplace=True, axis=1)
             return df
