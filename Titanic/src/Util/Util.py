@@ -5,6 +5,7 @@ import pandas as pd
 # import tensorflow as tf
 import sklearn.model_selection
 from matplotlib import pyplot as plt
+from sklearn import preprocessing
 from sklearn.model_selection import validation_curve, GridSearchCV
 
 import seaborn as sns
@@ -18,6 +19,10 @@ def group_by_sub_string(original_string, list_of_sub_strings):
 
 
 # TODO Add plotting ROC curves
+
+def scale_df(X):
+    scalar = preprocessing.StandardScaler().fit(X)
+    return pd.DataFrame(scalar.transform(X))
 
 
 def get_validation_curve(param_array, param_name, classifier, X, y):
@@ -113,6 +118,9 @@ class Util:
             dict.fromkeys(['Dr', 'Col', 'Major', 'Jonkheer', 'Capt', 'Sir', 'Don', 'Rev']
                           , 'Special'))
 
+        df['Title'].replace({'Mr': 0, 'Miss': 1, 'Master': 2, 'Special': 3},
+                                    inplace=True)
+
         df['SurnameCount'] = df['Surname'].map(lambda x: surname_count[x])
 
         df['Ticket_Frequency'] = df['Ticket'].map(lambda x: ticket_count[x])
@@ -148,7 +156,7 @@ class Util:
         df['Age'] = pd.qcut(df['Age'], 10, labels=False, precision=0)
         if train_set:
             self.survivalPerTicket = df.groupby('Ticket')['Survived'].mean()
-
+            # Add another column that's 1 or 0 based on if this is a mean or not possibly so all zeros here and in other one some zeros and some ones
             df['Ticket_percentage_survival'] = df['Ticket'].map(lambda x: self.survivalPerTicket[x] / ticket_count[x])
             df.drop('Ticket', inplace=True, axis=1)
             if get_cv:
