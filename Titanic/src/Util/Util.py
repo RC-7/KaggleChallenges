@@ -102,12 +102,12 @@ class Util:
         df = pd.read_csv(self.dataPath + dataset_name)
         # Seperate only surnames from Passenger Names
         self.fullDf['Surname'] = self.fullDf['Name'].map(lambda x: x.split(',')[0])
+        # TODO remove surname count from RF and KMeans, add other features
         df['Surname'] = df['Name'].map(lambda x: x.split(',')[0])
         surname_count = self.fullDf.groupby('Surname').size()
         ticket_count = self.fullDf.groupby('Ticket').size()
         # print(ticket_count)
 
-        # Ticket and familly survival rate.
 
         df['Title'] = df['Name'].map(lambda x: x.split(',')[1].split('.')[0].strip())
         df['Married'] = df['Title'].map(lambda x: x == 'Mr' or x == 'Mrs')
@@ -156,8 +156,9 @@ class Util:
         df['Age'] = pd.qcut(df['Age'], 10, labels=False, precision=0)
         if train_set:
             self.survivalPerTicket = df.groupby('Ticket')['Survived'].mean()
+            # TODO Need this
             # Add another column that's 1 or 0 based on if this is a mean or not possibly so all zeros here and in other one some zeros and some ones
-            df['Ticket_percentage_survival'] = df['Ticket'].map(lambda x: self.survivalPerTicket[x] / ticket_count[x])
+            # df['Ticket_percentage_survival'] = df['Ticket'].map(lambda x: self.survivalPerTicket[x] / ticket_count[x])
             df.drop('Ticket', inplace=True, axis=1)
             if get_cv:
                 train, cv = sklearn.model_selection.train_test_split(df, test_size=0.22)
@@ -171,7 +172,7 @@ class Util:
 
         else:
             # Use the men survival percentage if the ticket was not in the training set.
-            df['Ticket_percentage_survival'] = df['Ticket'].map(lambda x: self.survivalPerTicket[x] / ticket_count[x] \
-                if x in self.survivalPerTicket else self.survivalPerTicket.mean())
+            # df['Ticket_percentage_survival'] = df['Ticket'].map(lambda x: self.survivalPerTicket[x] / ticket_count[x] \
+            #     if x in self.survivalPerTicket else self.survivalPerTicket.mean())
             df.drop('Ticket', inplace=True, axis=1)
             return df

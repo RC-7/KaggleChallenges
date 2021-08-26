@@ -14,6 +14,8 @@ def main():
     X_test = util.get_df('/test.csv', False)
     df = pd.read_csv('../../data/test.csv')
 
+    # TODO RF with normalized values, RF with new values
+
     n_estimators = [100, 150, 300, 500]
     max_depth = [4, 5, 6, 7, 8]
     min_samples_split = [2, 5, 10, 15, 100]
