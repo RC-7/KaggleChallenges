@@ -8,6 +8,8 @@ from Titanic.src.Util.Util import Util
 def main():
     util = Util()
     [X, y, x_cv, y_cv] = util.get_df('/train.csv')
+    X.drop('Survived', inplace=True, axis=1)
+    x_cv.drop('Survived', inplace=True, axis=1)
     y = np.ravel(y)
     X_test = util.get_df('/test.csv', False)
     df = pd.read_csv('../../data/test.csv')
@@ -21,10 +23,10 @@ def main():
     predictions = model.predict(X_test)
 
     #
-    output = pd.DataFrame({'PassengerId': df.PassengerId, 'Survived': predictions})
-    print(output)
-    output.to_csv('my_submissionYes.csv', index=False)
-    print("Your submission was successfully saved!")
+    # output = pd.DataFrame({'PassengerId': df.PassengerId, 'Survived': predictions})
+    # print(output)
+    # output.to_csv('my_submissionYes.csv', index=False)
+    # print("Your submission was successfully saved!")
 
 
 if __name__ == "__main__":

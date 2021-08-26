@@ -2,7 +2,6 @@ import json
 import numpy as np
 import pandas as pd
 
-
 # import tensorflow as tf
 import sklearn.model_selection
 
@@ -12,6 +11,9 @@ def group_by_sub_string(original_string, list_of_sub_strings):
         if original_string.find(substring) != -1:
             return substring
     return np.nan
+
+
+# def find_optimal_perams (model, perams):
 
 
 class Util:
@@ -67,14 +69,14 @@ class Util:
         df['CabinGrouping'] = df['Cabin'].map(lambda x: group_by_sub_string(x, cabin_grouping))
         df.drop('Cabin', inplace=True, axis=1)
         df.drop('Ticket', inplace=True, axis=1)
-        df['CabinGrouping'].replace({'A': 0, 'B': 1, 'C': 2, 'D': 3, \
-                                     'E': 4, 'F': 5, 'T': 6, 'G': 7, 'Unknown': 8}, inplace=True)
-        df.drop('Age', inplace=True, axis=1) # Look at fixing Nan Values here
+        df['CabinGrouping'].replace({'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4, 'F': 5, 'T': 6, 'G': 7, 'Unknown': 8}, inplace=True)
+        df.drop('Age', inplace=True, axis=1)  # Look at fixing Nan Values here
         if train_set:
             train, cv = sklearn.model_selection.train_test_split(df, test_size=0.22)
             labels_train = train[['Survived']]
             labels_cv = cv[['Survived']]
-            df.drop('Survived', inplace=True, axis=1)
+            # train.drop('Survived', inplace=True, axis=1)
+            # cv.drop('Survived', inplace=True, axis=1)
             return [train, labels_train, cv, labels_cv]
         else:
             return df
