@@ -1,3 +1,5 @@
 {
-  "env": "Local"
+  "env": "Local",
+  "tuning": true,
+  "predict": false
 }

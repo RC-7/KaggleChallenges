@@ -14,6 +14,8 @@ def group_by_sub_string(original_string, list_of_sub_strings):
             return substring
     return np.nan
 
+# TODO Add plotting ROC curves
+
 
 def get_validation_curve(param_array, param_name, classifier, X, y):
     param_range = param_array
@@ -70,6 +72,9 @@ class Util:
             self.configValues["env"] = "Kaggle"
         self.dataPath = "../../data" if self.configValues["env"] == "Local" else "/kaggle/input"
 
+        self.fullDf = pd.concat([pd.read_csv(self.dataPath + '/train.csv'),
+                                pd.read_csv(self.dataPath + '/test.csv')])
+
     def normalise(self, dataframe):
         pass
 
@@ -86,14 +91,17 @@ class Util:
     def get_df(self, dataset_name, train_set=True, get_cv=False):
         df = pd.read_csv(self.dataPath + dataset_name)
         # Seperate only surnames from Passenger Names
+        self.fullDf['Surname'] = self.fullDf['Name'].map(lambda x: x.split(',')[0])
         df['Surname'] = df['Name'].map(lambda x: x.split(',')[0])
-        surname_count = df.groupby('Surname').size()
+        surname_count = self.fullDf.groupby('Surname').size()
+        ticket_count = self.fullDf.groupby('Ticket').size()
         df['SurnameCount'] = df['Surname'].map(lambda x: surname_count[x])
+        df['Ticket_Frequency'] = df['Ticket'].map(lambda x: ticket_count[x])
+        # df['Ticket_Frequency'] = df.groupby('Ticket')['Ticket'].transform('count')
         # Drop Surname column
         df.drop('Surname', inplace=True, axis=1)
         # Drop Name column
         df.drop('Name', inplace=True, axis=1)
-
         # Drop ID column
         df.drop('PassengerId', inplace=True, axis=1)
         # Binarise Sex
@@ -104,17 +112,21 @@ class Util:
         df["Embarked"] = df["Embarked"].fillna("3")
         df["Cabin"] = df["Cabin"].fillna("Unknown")
 
-        # Fix this
-        # val = df.Fare.where(df.Pclass == 3).mean()
-        # df.Fare.where(df.Pclass == 3).replace({np.nan: val})
-        df["Fare"] = df["Fare"].fillna("13")
-
         cabin_grouping = ['A', 'B', 'C', 'D', 'E', 'F', 'T', 'G', 'Unknown']
         df['CabinGrouping'] = df['Cabin'].map(lambda x: group_by_sub_string(x, cabin_grouping))
         df.drop('Cabin', inplace=True, axis=1)
         df.drop('Ticket', inplace=True, axis=1)
-        df['CabinGrouping'].replace({'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4, 'F': 5, 'T': 6, 'G': 7, 'Unknown': 8}, inplace=True)
-        df.drop('Age', inplace=True, axis=1)  # Look at fixing Nan Values here
+        df['CabinGrouping'].replace({'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4, 'F': 5, 'T': 0, 'G': 7, 'Unknown': 8},
+                                    inplace=True)
+        # Fill Age Nan's
+        df['Age'] = df.groupby(['Sex', 'Pclass'])['Age'].apply(lambda x: x.fillna(x.median()))
+
+        med_fare = df.groupby(['Pclass', 'Parch', 'SibSp']).Fare.median()[3][0][0]
+        # Filling the missing value for one missing passenger
+        df['Fare'] = df['Fare'].fillna(med_fare)
+
+        df['Fare'] = pd.qcut(df['Fare'], 13, labels=False, precision=0)
+        df['Age'] = pd.qcut(df['Age'], 10, labels=False, precision=0)
         if train_set:
             if get_cv:
                 train, cv = sklearn.model_selection.train_test_split(df, test_size=0.22)

@@ -27,6 +27,30 @@ df = pd.read_csv(dataPath + "/train.csv")
 # Look at age values and name to check for missing values
 df[['Name', 'Age']].to_csv('Age Values.txt')
 
+df['Fare'] = pd.qcut(df['Fare'], 13, labels=False, precision=0)
+df['Age'] = pd.qcut(df['Age'], 10, labels=False, precision=0)
+
+#  Plot to view Age Bins
+# fig, axs = plt.subplots()
+# sns.countplot(x='Age', hue='Survived', data=df)
+#
+# plt.xlabel('Age', size=15, labelpad=20)
+# plt.ylabel('Passenger Count', size=15, labelpad=20)
+# plt.tick_params(axis='x', labelsize=15)
+# plt.tick_params(axis='y', labelsize=15)
+#
+# plt.legend(['Not Survived', 'Survived'])
+# plt.title('Survival Counts in Age Parameter')
+# plt.show()
+
+# View correlation matrix for data
+# f, ax = plt.subplots(figsize=(10, 8))
+# corr = df.corr()
+# sns.heatmap(corr, mask=np.zeros_like(corr, dtype=np.bool), cmap=sns.diverging_palette(220, 10, as_cmap=True),
+#             square=True, ax=ax)
+# plt.title("Correlation matrix for features in dataset: " + dataset_name)
+# plt.show()
+
 df['Surname'] = df['Name'].map(lambda x: x.split(',')[0])
 df[['Surname']].to_csv('Surname.txt')
 
