@@ -28,8 +28,65 @@ df = pd.read_csv(dataPath + "/train.csv")
 df[['Name', 'Age']].to_csv('Age Values.txt')
 
 df['Fare'] = pd.qcut(df['Fare'], 13, labels=False, precision=0)
+
+# Determining number of bins to use for Age  correlation of 0.049151293565911795
+currentCorr = 0
+optimalAgeBin = 0
+for i in range(10):
+    try:
+        testDf = df['Age'].copy()
+        df['Age'] = pd.qcut(df['Age'], i, labels=False, precision=0)
+        ageCorr = df.corr()['Survived'].sort_values(ascending=False)['Age']
+        df['Age'] = testDf
+        if (ageCorr > currentCorr):
+            currentCorr = ageCorr
+            optimalAgeBin = i
+    except:
+        print('Exception found with binning')
+print("optimal age bin %s, correlation %s" % (str(optimalAgeBin), str(currentCorr)))
+
+
+#  Determining optimal Fare bin
+currentCorr = 0
+optimalAgeBin = 0
+for i in range(10):
+    try:
+        testDf = df['Fare'].copy()
+        df['Fare'] = pd.qcut(df['Fare'], i, labels=False, precision=0)
+        ageCorr = df.corr()['Survived'].sort_values(ascending=False)['Fare']
+        df['Fare'] = testDf
+        if (ageCorr > currentCorr):
+            currentCorr = ageCorr
+            optimalAgeBin = i
+    except:
+        print('Exception found with binning')
+print("optimal Fare bin %s, correlation %s" % (str(optimalAgeBin), str(currentCorr)))
+
+# Determining if thresholding Age is better, correlation 0.049151293565911795
+currentCorr = 0
+optimalAgeBin = 0
+for i in range(50):
+    try:
+        testDf = df['Age'].copy()
+        df['Age'] = df['Age'].map(lambda x: x > i)
+        ageCorr = df.corr()['Survived'].sort_values(ascending=False)['Age']
+        df['Age'] = testDf
+        if (ageCorr > currentCorr):
+            currentCorr = ageCorr
+            optimalAgeBin = i
+    except:
+        print('Exception found with binning')
+print("optimal age thresh for binary binning %s, correlation %s" % (str(optimalAgeBin), str(currentCorr)))
+
+print(df['Age'].value_counts())
+
 df['Age'] = pd.qcut(df['Age'], 10, labels=False, precision=0)
 
+f, ax = plt.subplots(figsize=(10, 8))
+corr = X.corr()
+sns.heatmap(corr, mask=np.zeros_like(corr, dtype=np.bool), cmap=sns.diverging_palette(220, 10, as_cmap=True),
+            square=True, ax=ax)
+plt.show()
 #  Plot to view Age Bins
 # fig, axs = plt.subplots()
 # sns.countplot(x='Age', hue='Survived', data=df)
