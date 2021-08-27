@@ -89,7 +89,7 @@ def main():
         overall_predictions = df.Survived.map(mapper).astype(np.int)
 
         output = pd.DataFrame({'PassengerId': df.PassengerId, 'Survived': overall_predictions})
-        output.to_csv('KmeansNormalized.csv', index=False)
+        output.to_csv('../../predictions/KmeansNormalized.csv', index=False)
         print("Your submission was successfully saved!")
 
 

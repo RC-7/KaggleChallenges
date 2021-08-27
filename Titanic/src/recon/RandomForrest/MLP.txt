@@ -1,0 +1,17 @@
+GridSearchCV(cv=3, estimator=MLPClassifier(max_iter=10000), n_jobs=-1,
+             param_grid={'activation': ['tanh', 'relu'],
+                         'alpha': [0.0001, 0.05],
+                         'hidden_layer_sizes': [(50, 50), (5, 3), (50, 50, 50),
+                                                (100,)],
+                         'learning_rate': ['constant', 'adaptive'],
+                         'solver': ['sgd', 'adam', 'lbfgs']},
+             verbose=1)
+params 
+{'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (5, 3), 'learning_rate': 'adaptive', 'solver': 'adam'}
+estimator 
+MLPClassifier(activation='tanh', hidden_layer_sizes=(5, 3),
+              learning_rate='adaptive', max_iter=10000)
+index
+10
+score
+0.8294051627384961

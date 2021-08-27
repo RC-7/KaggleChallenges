@@ -5,6 +5,7 @@ import string
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
+from sklearn.cluster import KMeans
 
 
 def group_by_sub_string(original_string, list_of_sub_strings):
@@ -166,8 +167,19 @@ df.drop('Survived', inplace=True, axis=1)
 
 dfTicketCount = df['Ticket'].value_counts()
 
+# Binning age data -> similar analysis done for fare data
 
+age_data = df[['Age', 'Survived']].dropna()
+kmeans = KMeans(n_clusters=4, random_state=0, max_iter=1000, init='random').fit(age_data)
+age_group = kmeans.labels_
+age_data['age bin'] = age_group
 
+age_min = age_data.groupby('age bin')['Age'].min().reset_index()
+age_min.rename(columns={'Age': 'minimum age'}, inplace=True)
+age_max = age_data.groupby('age bin')['Age'].max().reset_index()
+age_max.rename(columns={'Age': 'maximum age'}, inplace=True)
+age_bins = pd.merge(age_min, age_max, on='age bin')
+print(age_bins)
 
 # Grouping By Cabin and removing Nan Values from Cabin column
 df["Cabin"] = df["Cabin"].fillna("Unknown")

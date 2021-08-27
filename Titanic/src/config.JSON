@@ -3,8 +3,7 @@
   "tuning": false,
   "predict": true,
   "columns": [
-    "Sex", "Title", "Fare",
-    "HasCabin", "CabinGrouping", "Pclass", "Married", "Age"
+    "Sex", "Title", "Fare", "HasCabin", "Pclass", "Married", "Embarked", "Ticket_Frequency", "SibSp", "CabinGrouping", "Parch"
   ],
   "allColumns": ["Pclass", "Sex", "Age", "SibSp", "Parch", "Fare", "Embarked", "Title",
        "Married", "SurnameCount", "Ticket_Frequency", "CabinGrouping",

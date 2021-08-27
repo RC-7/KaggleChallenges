@@ -13,3 +13,6 @@ CabinGrouping                     -0.297423
 Pclass                            -0.338481
 Married                           -0.341616
 Know_Ticket_Survival_percentage         NaN
+
+
+   "Sex", "Title", "Fare", "HasCabin", "Pclass", "Married", "Age", "Embarked", "Ticket_Frequency", "SibSp", "CabinGrouping"

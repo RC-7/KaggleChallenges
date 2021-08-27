@@ -19,8 +19,6 @@ def main():
     X_test = scale_df(X_test)
     df = pd.read_csv('../../data/test.csv')
 
-    # TODO RF with normalized values, RF with new values
-
     n_estimators = [100, 150, 300, 500]
     max_depth = [4, 5, 6, 7, 8]
     min_samples_split = [2, 5, 10, 15, 100]
@@ -29,11 +27,11 @@ def main():
 
     if util.configValues['tuning']:
         # Validation curves for parameters
-        # get_validation_curve(n_estimators, 'n_estimators', RandomForestClassifier(), X, y)
-        # get_validation_curve(max_depth, 'max_depth', RandomForestClassifier(), X, y)
-        # get_validation_curve(min_samples_split, 'min_samples_split', RandomForestClassifier(), X, y)
-        # get_validation_curve(min_samples_leaf, 'min_samples_leaf', RandomForestClassifier(), X, y)
-        # get_validation_curve(random_state, 'random_state', RandomForestClassifier(), X, y)
+        get_validation_curve(n_estimators, 'n_estimators', RandomForestClassifier(), X, y)
+        get_validation_curve(max_depth, 'max_depth', RandomForestClassifier(), X, y)
+        get_validation_curve(min_samples_split, 'min_samples_split', RandomForestClassifier(), X, y)
+        get_validation_curve(min_samples_leaf, 'min_samples_leaf', RandomForestClassifier(), X, y)
+        get_validation_curve(random_state, 'random_state', RandomForestClassifier(), X, y)
 
         # Find optimal params
         hyper_forrest = {'n_estimators': n_estimators,
@@ -42,10 +40,9 @@ def main():
                          'min_samples_leaf': min_samples_leaf,
                          'random_state': random_state}
 
-        params = {'n_estimators': 100, 'max_depth': 5, 'random_state': 1, 'min_samples_split': 2,
-                  'min_samples_leaf': 2, 'max_features': 'auto', 'criterion': 'entropy'}
+        params = {'max_features': 'auto', 'criterion': 'entropy'}
         model = RandomForestClassifier(**params)
-        optimap_params = find_optimal_param(hyper_forrest, model, X, y, 'RandForrest.txt')
+        optimap_params = find_optimal_param(hyper_forrest, model, X, y, '../recon/RandomForrest/RandForrest.txt')
         print(optimap_params)
 
     if util.configValues['predict']:
@@ -78,7 +75,7 @@ def main():
         print(overall_predictions.sum()/len(overall_predictions))
         print(y.sum()/len(y))
         output = pd.DataFrame({'PassengerId': df.PassengerId, 'Survived': overall_predictions})
-        output.to_csv('RandomForrestOptimized.csv', index=False)
+        output.to_csv('../../predictions/RandomForrestOptimized.csv', index=False)
         print("Your submission was successfully saved!")
 
 

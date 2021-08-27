@@ -7,7 +7,8 @@ import sklearn.model_selection
 from matplotlib import pyplot as plt
 from sklearn import preprocessing
 from sklearn.model_selection import validation_curve, GridSearchCV
-
+import bisect
+from sklearn.model_selection import cross_val_score
 import seaborn as sns
 
 
@@ -17,12 +18,15 @@ def group_by_sub_string(original_string, list_of_sub_strings):
             return substring
     return np.nan
 
-
+def onehot(df, feature_list):
+    print(df.shape)
+    try:
+        df = pd.get_dummies(df, columns=feature_list)
+        print(df.shape)
+        return df
+    except:
+        print("except")
 # TODO Add plotting ROC curves
-
-def scale_df(X):
-    scalar = preprocessing.StandardScaler().fit(X)
-    return pd.DataFrame(scalar.transform(X))
 
 
 def get_validation_curve(param_array, param_name, classifier, X, y):
@@ -68,13 +72,15 @@ def find_optimal_param(hyper_peram, model, X, y, output_file):
     print(grid_f.best_index_, file=open(output_file, 'a'))
     print("score", file=open(output_file, 'a'))
     print(grid_f.best_score_, file=open(output_file, 'a'))
-    return grid_f.best_params_
+    cv_score = cross_val_score(grid_f, X, y)
+    return [grid_f.best_params_, cv_score, grid_f.score(X,y)]
 
 
 class Util:
     def __init__(self):
         self.survivalPerTicket = {}
         self.configValues = {}
+        self.scalar = np.nan
         try:
             config_file = open("../config.JSON")
             self.configValues = json.load(config_file)
@@ -84,6 +90,12 @@ class Util:
 
         self.fullDf = pd.concat([pd.read_csv(self.dataPath + '/train.csv'),
                                  pd.read_csv(self.dataPath + '/test.csv')])
+
+    def scale_df(self, X):
+        if type(self.scalar) != preprocessing.StandardScaler:
+            self.scalar = preprocessing.StandardScaler().fit(X)
+            print('Creating scalar for training set')
+        return pd.DataFrame(self.scalar.transform(X))
 
     def normalise(self, dataframe):
         pass
@@ -110,16 +122,17 @@ class Util:
 
 
         df['Title'] = df['Name'].map(lambda x: x.split(',')[1].split('.')[0].strip())
+
         df['Married'] = df['Title'].map(lambda x: x == 'Mr' or x == 'Mrs')
         df[['Title']] = df[['Title']].replace(
             dict.fromkeys(['Miss', 'Mrs', 'Ms', 'Mlle', 'Lady', 'Mme', 'the Countess', 'Dona'],
                           'Miss'))
+
         df[['Title']] = df[['Title']].replace(
             dict.fromkeys(['Dr', 'Col', 'Major', 'Jonkheer', 'Capt', 'Sir', 'Don', 'Rev']
                           , 'Special'))
 
-        df['Title'].replace({'Mr': 0, 'Miss': 1, 'Master': 2, 'Special': 3},
-                                    inplace=True)
+        df['Title'].replace({'Mr': 0, 'Miss': 1, 'Master': 2, 'Special': 3}, inplace=True)
 
         df['SurnameCount'] = df['Surname'].map(lambda x: surname_count[x])
 
@@ -151,14 +164,21 @@ class Util:
 
         med_fare = df.groupby(['Pclass', 'Parch', 'SibSp']).Fare.median()[3][0][0]
         # Filling the missing value for one missing passenger
+        age_intervals = [14, 30, 46, 80]
+        df['Age'] = df['Age'].map(lambda x: bisect.bisect_left(age_intervals, x))
+
         df['Fare'] = df['Fare'].fillna(med_fare)
 
+        # fare_intervals = [0, 48]
+
+        # df['Age'] = df['Fare'].map(lambda x: bisect.bisect_left(fare_intervals, x))
+
         df['Fare'] = pd.qcut(df['Fare'], 9, labels=False, precision=0)
-        df['Age'] = pd.qcut(df['Age'], 2, labels=False, precision=0)
+        # df['Age'] = pd.qcut(df['Age'], 2, labels=False, precision=0)
         if train_set:
             self.survivalPerTicket = df.groupby('Ticket')['Survived'].mean()
             df['Ticket_percentage_survival'] = df['Ticket'].map(lambda x: self.survivalPerTicket[x] / ticket_count[x])
-            df['Know_Ticket_Survival_percentage'] = df['Ticket'].map(lambda x: 0 if x in self.survivalPerTicket else 1)
+            df['Know_Ticket_Survival_percentage'] = df['Ticket'].map(lambda x: 1 if x in self.survivalPerTicket else 0)
             df.drop('Ticket', inplace=True, axis=1)
             if get_cv:
                 train, cv = sklearn.model_selection.train_test_split(df, test_size=0.22)
@@ -174,8 +194,8 @@ class Util:
             # Use the mean survival percentage if the ticket was not in the training set.
             #  This is making model predict everyone lives
             df['Ticket_percentage_survival'] = df['Ticket'].map(lambda x: self.survivalPerTicket[x] / ticket_count[x] \
-                if x in self.survivalPerTicket else self.survivalPerTicket.mean())
+                if x in self.survivalPerTicket else 0)
             df['Know_Ticket_Survival_percentage'] = df['Ticket'].map(
-                lambda x: 0 if x in self.survivalPerTicket else 1)
+                lambda x: 1 if x in self.survivalPerTicket else 0)
             df.drop('Ticket', inplace=True, axis=1)
             return df
