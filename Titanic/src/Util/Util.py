@@ -98,6 +98,10 @@ class Util:
     #     # print(df.iloc[:3])
     #     # print(normalizer(df.iloc[:3]))
 
+    # TODO this analysis to chose features: train_data.corr()['Survived'].sort_values(ascending=False)
+    # Add feature if has as Cabin, do another corr matrix based on new feature set
+    #  TODO tomorrow, rerun RF and Kmeans after looking at features, SVM, then Convolutional network. Then cleanup code and analysis.
+
     def get_df(self, dataset_name, train_set=True, get_cv=False):
         df = pd.read_csv(self.dataPath + dataset_name)
         # Seperate only surnames from Passenger Names
@@ -106,6 +110,7 @@ class Util:
         df['Surname'] = df['Name'].map(lambda x: x.split(',')[0])
         surname_count = self.fullDf.groupby('Surname').size()
         ticket_count = self.fullDf.groupby('Ticket').size()
+        # print(ticket_count)
         # print(ticket_count)
 
 
@@ -141,6 +146,7 @@ class Util:
 
         cabin_grouping = ['A', 'B', 'C', 'D', 'E', 'F', 'T', 'G', 'Unknown']
         df['CabinGrouping'] = df['Cabin'].map(lambda x: group_by_sub_string(x, cabin_grouping))
+        df['HasCabin'] = df['CabinGrouping'].map(lambda x: 1 if x != 'Unknown' else 0)
         df.drop('Cabin', inplace=True, axis=1)
 
         df['CabinGrouping'].replace({'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4, 'F': 5, 'T': 0, 'G': 7, 'Unknown': 8},
@@ -152,13 +158,14 @@ class Util:
         # Filling the missing value for one missing passenger
         df['Fare'] = df['Fare'].fillna(med_fare)
 
-        df['Fare'] = pd.qcut(df['Fare'], 13, labels=False, precision=0)
-        df['Age'] = pd.qcut(df['Age'], 10, labels=False, precision=0)
+        df['Fare'] = pd.qcut(df['Fare'], 9, labels=False, precision=0)
+        df['Age'] = pd.qcut(df['Age'], 2, labels=False, precision=0)
         if train_set:
             self.survivalPerTicket = df.groupby('Ticket')['Survived'].mean()
             # TODO Need this
             # Add another column that's 1 or 0 based on if this is a mean or not possibly so all zeros here and in other one some zeros and some ones
-            # df['Ticket_percentage_survival'] = df['Ticket'].map(lambda x: self.survivalPerTicket[x] / ticket_count[x])
+            df['Ticket_percentage_survival'] = df['Ticket'].map(lambda x: self.survivalPerTicket[x] / ticket_count[x])
+            df['Know_Ticket_Survival_percentage'] = df['Ticket'].map(lambda x: 0 if x in self.survivalPerTicket else 1)
             df.drop('Ticket', inplace=True, axis=1)
             if get_cv:
                 train, cv = sklearn.model_selection.train_test_split(df, test_size=0.22)
@@ -171,8 +178,10 @@ class Util:
             return [df, labels]
 
         else:
-            # Use the men survival percentage if the ticket was not in the training set.
-            # df['Ticket_percentage_survival'] = df['Ticket'].map(lambda x: self.survivalPerTicket[x] / ticket_count[x] \
-            #     if x in self.survivalPerTicket else self.survivalPerTicket.mean())
+            # Use the mean survival percentage if the ticket was not in the training set.
+            df['Ticket_percentage_survival'] = df['Ticket'].map(lambda x: self.survivalPerTicket[x] / ticket_count[x] \
+                if x in self.survivalPerTicket else self.survivalPerTicket.mean())
+            df['Know_Ticket_Survival_percentage'] = df['Ticket'].map(
+                lambda x: 0 if x in self.survivalPerTicket else 1)
             df.drop('Ticket', inplace=True, axis=1)
             return df

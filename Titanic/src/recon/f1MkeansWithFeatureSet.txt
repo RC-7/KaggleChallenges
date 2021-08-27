@@ -1,0 +1,51 @@
+  "columns": [
+    "Ticket_percentage_survival", "Sex", "Title", "Fare",
+    "HasCabin", "CabinGrouping", "Pclass", "Married", "Know_Ticket_Survival_percentage"
+  ]
+
+  New optimal Cluster size found
+84
+f1: 0.3225806451612903
+
+  "columns": [
+    "Ticket_percentage_survival", "Sex", "Title", "Fare",
+    "HasCabin", "CabinGrouping", "Pclass", "Married"
+  ]
+
+
+New optimal Cluster size found
+44
+f1: 0.4166666666666667
+  "columns": [
+    "Sex", "Title", "Fare",
+    "HasCabin", "CabinGrouping", "Pclass", "Married"
+  ]
+
+New optimal Cluster size found
+18
+f1: 0.49090909090909096
+
+
+  "columns": [
+    "Sex", "Title", "Fare",
+    "HasCabin", "CabinGrouping", "Pclass", "Married", "Embarked"
+  ]
+
+New optimal Cluster size found
+62
+f1: 0.3684210526315789
+
+
+
+GlobalOptima: ['Pclass' 'Sex' 'SibSp' 'Ticket_Frequency' 'HasCabin']
+GlobalOptima 0.6725663716814159
+
+
+GlobalOptima: ['Pclass' 'Sex' 'Age' 'Title' 'Married' 'SurnameCount' 'Ticket_Frequency'
+ 'CabinGrouping']
+GlobalOptima 0.4328358208955224
+20 clusters
+
+
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Fare' 'Married']
+Optimal clusters 90 with f1 score 0.5811965811965812

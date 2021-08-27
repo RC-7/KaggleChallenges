@@ -1,5 +1,13 @@
 {
   "env": "Local",
-  "tuning": false,
-  "predict": true
+  "tuning": true,
+  "predict": false,
+  "columns": [
+    "Ticket_percentage_survival", "Sex", "Title", "Fare",
+    "HasCabin", "CabinGrouping", "Pclass", "Married", "Know_Ticket_Survival_percentage", "Age"
+  ],
+  "allColumns": ["Pclass", "Sex", "Age", "SibSp", "Parch", "Fare", "Embarked", "Title",
+       "Married", "SurnameCount", "Ticket_Frequency", "CabinGrouping",
+       "HasCabin", "Ticket_percentage_survival",
+       "Know_Ticket_Survival_percentage"]
 }

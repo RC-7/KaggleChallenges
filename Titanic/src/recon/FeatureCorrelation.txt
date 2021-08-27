@@ -1,0 +1,15 @@
+Survived                           1.000000
+Ticket_percentage_survival         0.783434
+Sex                                0.543351
+Title                              0.402510
+Fare                               0.330691
+HasCabin                           0.316912
+Parch                              0.081629
+Ticket_Frequency                   0.064962
+Age                                0.049151
+SurnameCount                      -0.025524
+SibSp                             -0.035322
+CabinGrouping                     -0.297423
+Pclass                            -0.338481
+Married                           -0.341616
+Know_Ticket_Survival_percentage         NaN
