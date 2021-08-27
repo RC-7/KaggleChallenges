@@ -9,6 +9,7 @@ from sklearn import preprocessing
 from sklearn.model_selection import validation_curve, GridSearchCV
 import bisect
 from sklearn.model_selection import cross_val_score
+from sklearn.neural_network import MLPRegressor
 import seaborn as sns
 
 
@@ -18,14 +19,21 @@ def group_by_sub_string(original_string, list_of_sub_strings):
             return substring
     return np.nan
 
-def onehot(df, feature_list):
-    print(df.shape)
+
+def extract_datasets(full_df):
+    x_train = full_df.loc[full_df['Survived'].notnull()]
+    x_test = full_df.loc[full_df['Survived'].isnull()]
+    return x_train, x_test
+
+
+def onehot_encoding(df, feature_list):
     try:
         df = pd.get_dummies(df, columns=feature_list)
-        print(df.shape)
         return df
     except:
-        print("except")
+        pass
+
+
 # TODO Add plotting ROC curves
 
 
@@ -73,7 +81,7 @@ def find_optimal_param(hyper_peram, model, X, y, output_file):
     print("score", file=open(output_file, 'a'))
     print(grid_f.best_score_, file=open(output_file, 'a'))
     cv_score = cross_val_score(grid_f, X, y)
-    return [grid_f.best_params_, cv_score, grid_f.score(X,y)]
+    return [grid_f.best_params_, cv_score, grid_f.score(X, y)]
 
 
 class Util:
@@ -89,7 +97,74 @@ class Util:
         self.dataPath = "../../data" if self.configValues["env"] == "Local" else "/kaggle/input"
 
         self.fullDf = pd.concat([pd.read_csv(self.dataPath + '/train.csv'),
-                                 pd.read_csv(self.dataPath + '/test.csv')])
+                                 pd.read_csv(self.dataPath + '/test.csv')], ignore_index=True)
+
+        self.fullDf['Title'] = self.fullDf['Name'].map(lambda x: x.split(',')[1].split('.')[0].strip())
+
+        self.fullDf['Married'] = self.fullDf['Title'].map(lambda x: x == 'Mr' or x == 'Mrs')
+        self.fullDf[['Title']] = self.fullDf[['Title']].replace(
+            dict.fromkeys(['Miss', 'Mrs', 'Ms', 'Mlle', 'Lady', 'Mme', 'the Countess', 'Dona'],
+                          'Miss'))
+
+        self.fullDf[['Title']] = self.fullDf[['Title']].replace(
+            dict.fromkeys(['Dr', 'Col', 'Major', 'Jonkheer', 'Capt', 'Sir', 'Don', 'Rev']
+                          , 'Special'))
+
+        self.fullDf["Cabin"] = self.fullDf["Cabin"].fillna("Unknown")
+        cabin_grouping = ['A', 'B', 'C', 'D', 'E', 'F', 'T', 'G', 'Unknown']
+        self.fullDf['CabinGrouping'] = self.fullDf['Cabin'].map(lambda x: group_by_sub_string(x, cabin_grouping))
+        self.fullDf['HasCabin'] = self.fullDf['CabinGrouping'].map(lambda x: 1 if x != 'Unknown' else 0)
+        features_for_onehot_encoding = ["Title", "Pclass", "Embarked", "CabinGrouping"]
+
+        # self.fullDf['Fare'] = pd.qcut(self.fullDf['Fare'], 9, labels=False, precision=0)  # Might not be needed for MLP
+
+        self.fullDf['Sex'].replace({"female": 1, "male": 0}, inplace=True)
+
+        # Dropping columns
+        self.fullDf.drop('Name', inplace=True, axis=1)
+        self.fullDf.drop('PassengerId', inplace=True, axis=1)
+        self.fullDf.drop('Cabin', inplace=True, axis=1)
+        # self.fullDf.drop('Age', inplace=True, axis=1)
+        self.fullDf.drop('Ticket', inplace=True, axis=1)
+
+        # filling null values
+        self.fullDf["Embarked"] = self.fullDf["Embarked"].fillna("S")
+        med_fare = self.fullDf.groupby(['Pclass', 'Parch', 'SibSp']).Fare.median()[3][0][0]
+        self.fullDf['Fare'] = self.fullDf['Fare'].fillna(med_fare)
+        self.fullDf = onehot_encoding(self.fullDf, features_for_onehot_encoding)
+
+        self.fullDf['Fare'] = pd.qcut(self.fullDf['Fare'], 9, labels=False, precision=0)  # Might not be needed for MLP
+
+        [x_train, x_test] = extract_datasets(self.fullDf)
+
+        X_train_age = self.fullDf[[x for x in list(x_train) if not x in ["Survived"]]]  # select use features
+
+        # split data for train
+        X_predict_age = X_train_age.loc[X_train_age["Age"].isnull()]
+        X_train_age = X_train_age.loc[X_train_age["Age"].notnull()]  # use rows which age is not null
+        y_train_age = X_train_age.Age
+        try:
+            X_train_age.drop("Age", axis=1, inplace=True)
+            X_predict_age.drop("Age", axis=1, inplace=True)
+        except:
+            print("except")
+
+        age_Scalar = preprocessing.StandardScaler().fit(X_train_age)
+        X_train_age = age_Scalar.transform(X_train_age)
+        X_predict_age = age_Scalar.transform(X_predict_age)
+        Age_None_list = self.fullDf[self.fullDf['Age'].isnull()].index.tolist()
+
+        mlr = MLPRegressor(solver='lbfgs', alpha=1e-5,
+                           hidden_layer_sizes=(50, 50), random_state=1)
+        mlr.fit(X_train_age, y_train_age)
+
+        age_predictions = mlr.predict(X_predict_age).tolist()
+        self.fullDf["Age"][Age_None_list] = age_predictions
+
+        [self.x_train, self.x_test] = extract_datasets(self.fullDf)
+        self.y_train = x_train[['Survived']]
+        self.fullDf.drop('Survived', inplace=True, axis=1)
+
 
     def scale_df(self, X):
         if type(self.scalar) != preprocessing.StandardScaler:
@@ -100,102 +175,6 @@ class Util:
     def normalise(self, dataframe):
         pass
 
-    # def convert_to__normalised_tensor(self, df):
-    #     # tf.convert_to_tensor(df)
-    #     normalizer = tf.keras.layers.LayerNormalization(axis=-1)
-    #     # normalizer = tf.keras.layers.Normalization(axis=-1)
-    #     print(df)
-    #     print(normalizer(df))
-    #     # normalizer.adapt(df)
-    #     # print(df.iloc[:3])
-    #     # print(normalizer(df.iloc[:3]))
+    def get_df(self):
 
-    def get_df(self, dataset_name, train_set=True, get_cv=False):
-        df = pd.read_csv(self.dataPath + dataset_name)
-        # Seperate only surnames from Passenger Names
-        self.fullDf['Surname'] = self.fullDf['Name'].map(lambda x: x.split(',')[0])
-        df['Surname'] = df['Name'].map(lambda x: x.split(',')[0])
-        surname_count = self.fullDf.groupby('Surname').size()
-        ticket_count = self.fullDf.groupby('Ticket').size()
-        # print(ticket_count)
-        # print(ticket_count)
-
-
-        df['Title'] = df['Name'].map(lambda x: x.split(',')[1].split('.')[0].strip())
-
-        df['Married'] = df['Title'].map(lambda x: x == 'Mr' or x == 'Mrs')
-        df[['Title']] = df[['Title']].replace(
-            dict.fromkeys(['Miss', 'Mrs', 'Ms', 'Mlle', 'Lady', 'Mme', 'the Countess', 'Dona'],
-                          'Miss'))
-
-        df[['Title']] = df[['Title']].replace(
-            dict.fromkeys(['Dr', 'Col', 'Major', 'Jonkheer', 'Capt', 'Sir', 'Don', 'Rev']
-                          , 'Special'))
-
-        df['Title'].replace({'Mr': 0, 'Miss': 1, 'Master': 2, 'Special': 3}, inplace=True)
-
-        df['SurnameCount'] = df['Surname'].map(lambda x: surname_count[x])
-
-        df['Ticket_Frequency'] = df['Ticket'].map(lambda x: ticket_count[x])
-
-        # Drop Surname column
-        df.drop('Surname', inplace=True, axis=1)
-        # Drop Name column
-        df.drop('Name', inplace=True, axis=1)
-        # Drop ID column
-        df.drop('PassengerId', inplace=True, axis=1)
-        # Binarise Sex
-        df['Sex'].replace({"female": 1, "male": 0}, inplace=True)
-        # Convert embarked to Numbers
-        df['Embarked'].replace({"S": 3, "C": 1, "Q": 0}, inplace=True)
-        # Raplace Nan values, Will try to do this a bit more intelligently
-        df["Embarked"] = df["Embarked"].fillna("3")
-        df["Cabin"] = df["Cabin"].fillna("Unknown")
-
-        cabin_grouping = ['A', 'B', 'C', 'D', 'E', 'F', 'T', 'G', 'Unknown']
-        df['CabinGrouping'] = df['Cabin'].map(lambda x: group_by_sub_string(x, cabin_grouping))
-        df['HasCabin'] = df['CabinGrouping'].map(lambda x: 1 if x != 'Unknown' else 0)
-        df.drop('Cabin', inplace=True, axis=1)
-
-        df['CabinGrouping'].replace({'A': 0, 'B': 1, 'C': 2, 'D': 3, 'E': 4, 'F': 5, 'T': 0, 'G': 7, 'Unknown': 8},
-                                    inplace=True)
-        # Fill Age Nan's
-        df['Age'] = df.groupby(['Sex', 'Pclass'])['Age'].apply(lambda x: x.fillna(x.median()))
-
-        med_fare = df.groupby(['Pclass', 'Parch', 'SibSp']).Fare.median()[3][0][0]
-        # Filling the missing value for one missing passenger
-        age_intervals = [14, 30, 46, 80]
-        df['Age'] = df['Age'].map(lambda x: bisect.bisect_left(age_intervals, x))
-
-        df['Fare'] = df['Fare'].fillna(med_fare)
-
-        # fare_intervals = [0, 48]
-
-        # df['Age'] = df['Fare'].map(lambda x: bisect.bisect_left(fare_intervals, x))
-
-        df['Fare'] = pd.qcut(df['Fare'], 9, labels=False, precision=0)
-        # df['Age'] = pd.qcut(df['Age'], 2, labels=False, precision=0)
-        if train_set:
-            self.survivalPerTicket = df.groupby('Ticket')['Survived'].mean()
-            df['Ticket_percentage_survival'] = df['Ticket'].map(lambda x: self.survivalPerTicket[x] / ticket_count[x])
-            df['Know_Ticket_Survival_percentage'] = df['Ticket'].map(lambda x: 1 if x in self.survivalPerTicket else 0)
-            df.drop('Ticket', inplace=True, axis=1)
-            if get_cv:
-                train, cv = sklearn.model_selection.train_test_split(df, test_size=0.22)
-                labels_train = train[['Survived']]
-                labels_cv = cv[['Survived']]
-
-                return [train, labels_train, cv, labels_cv]
-            labels = df[['Survived']]
-            df.drop('Survived', inplace=True, axis=1)
-            return [df, labels]
-
-        else:
-            # Use the mean survival percentage if the ticket was not in the training set.
-            #  This is making model predict everyone lives
-            df['Ticket_percentage_survival'] = df['Ticket'].map(lambda x: self.survivalPerTicket[x] / ticket_count[x] \
-                if x in self.survivalPerTicket else 0)
-            df['Know_Ticket_Survival_percentage'] = df['Ticket'].map(
-                lambda x: 1 if x in self.survivalPerTicket else 0)
-            df.drop('Ticket', inplace=True, axis=1)
-            return df
+        return [self.x_train, self.y_train, self.x_test]
