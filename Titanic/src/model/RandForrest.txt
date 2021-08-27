@@ -61,3 +61,22 @@ index
 803
 score
 0.8260381593714926
+GridSearchCV(cv=3,
+             estimator=RandomForestClassifier(criterion='entropy', max_depth=5,
+                                              min_samples_leaf=2,
+                                              random_state=1),
+             n_jobs=-1,
+             param_grid={'max_depth': [4, 5, 6, 7, 8],
+                         'min_samples_leaf': [1, 2, 5, 10],
+                         'min_samples_split': [2, 5, 10, 15, 100],
+                         'n_estimators': [100, 150, 300, 500],
+                         'random_state': [1, 40, 100]},
+             verbose=1)
+params 
+{'max_depth': 7, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100, 'random_state': 100}
+estimator 
+RandomForestClassifier(criterion='entropy', max_depth=7, random_state=100)
+index
+722
+score
+0.9876543209876544

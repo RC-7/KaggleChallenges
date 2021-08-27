@@ -14,8 +14,10 @@ from Titanic.src.Util.Util import scale_df
 def main():
     util = Util()
     [X, y] = util.get_df('/train.csv')
+    X = X[util.configValues['columns']]
     y = np.ravel(y)
     X_test = util.get_df('/test.csv', False)
+    X_test = X_test[util.configValues['columns']]
     df = pd.read_csv('../../data/test.csv')
     X_norm = scale_df(X)
 
@@ -24,6 +26,10 @@ def main():
     # Look at loss for nr clusters
 
     if util.configValues['tuning']:
+
+        n_clusters = range(2, 100, 10)
+        p = {'n_init': 100, 'max_iter': 1000, 'init': 'random'}
+        get_validation_curve(n_clusters, 'n_clusters', KMeans(p), X_norm, y)
         num_clusters = 50
         loss = []
         for i in range(2, 100, 2):
@@ -37,7 +43,11 @@ def main():
         ax.plot(range(2, 100, 2), loss)
         plt.show()
 
+        # print(loss)
+        # TODO Try evaluating against test set instead
         [X, y, x_cv, y_cv] = util.get_df('/train.csv', True, True)
+        X = X[util.configValues['columns']]
+        x_cv = x_cv[util.configValues['columns']]
         f1 = 0
         optimal_cluster = 0
         for i in range(2, 98, 2):
@@ -65,9 +75,9 @@ def main():
                 print(optimal_cluster)
                 print("f1: " + str(f1_iter))
 
-        print(loss)
+
     if util.configValues['predict']:
-        params = {'n_clusters': 60, 'n_init': 100, 'max_iter': 1000, 'init': 'random'}
+        params = {'n_clusters': 20, 'n_init': 100, 'max_iter': 1000, 'init': 'random'}
         model = KMeans(**params)
         model.fit(X_norm)
 

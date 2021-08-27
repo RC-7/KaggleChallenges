@@ -37,10 +37,10 @@ def get_validation_curve(param_array, param_name, classifier, X, y):
     test_scores_mean = np.mean(test_scores, axis=1)
     test_scores_std = np.std(test_scores, axis=1)
 
-    plt.title("Validation Curve with Random Forest" + "(" + param_name + ")")
+    plt.title("Validation Curve with k means" + "(" + param_name + ")")
     plt.xlabel(r"$\gamma$")
     plt.ylabel("Score")
-    plt.ylim(0.0, 1.1)
+    # plt.ylim(0.0, 1.1)
     lw = 2
     plt.semilogx(param_range, train_scores_mean, label="Training score",
                  color="darkorange", lw=lw)
@@ -98,15 +98,10 @@ class Util:
     #     # print(df.iloc[:3])
     #     # print(normalizer(df.iloc[:3]))
 
-    # TODO this analysis to chose features: train_data.corr()['Survived'].sort_values(ascending=False)
-    # Add feature if has as Cabin, do another corr matrix based on new feature set
-    #  TODO tomorrow, rerun RF and Kmeans after looking at features, SVM, then Convolutional network. Then cleanup code and analysis.
-
     def get_df(self, dataset_name, train_set=True, get_cv=False):
         df = pd.read_csv(self.dataPath + dataset_name)
         # Seperate only surnames from Passenger Names
         self.fullDf['Surname'] = self.fullDf['Name'].map(lambda x: x.split(',')[0])
-        # TODO remove surname count from RF and KMeans, add other features
         df['Surname'] = df['Name'].map(lambda x: x.split(',')[0])
         surname_count = self.fullDf.groupby('Surname').size()
         ticket_count = self.fullDf.groupby('Ticket').size()
@@ -162,8 +157,6 @@ class Util:
         df['Age'] = pd.qcut(df['Age'], 2, labels=False, precision=0)
         if train_set:
             self.survivalPerTicket = df.groupby('Ticket')['Survived'].mean()
-            # TODO Need this
-            # Add another column that's 1 or 0 based on if this is a mean or not possibly so all zeros here and in other one some zeros and some ones
             df['Ticket_percentage_survival'] = df['Ticket'].map(lambda x: self.survivalPerTicket[x] / ticket_count[x])
             df['Know_Ticket_Survival_percentage'] = df['Ticket'].map(lambda x: 0 if x in self.survivalPerTicket else 1)
             df.drop('Ticket', inplace=True, axis=1)
@@ -179,6 +172,7 @@ class Util:
 
         else:
             # Use the mean survival percentage if the ticket was not in the training set.
+            #  This is making model predict everyone lives
             df['Ticket_percentage_survival'] = df['Ticket'].map(lambda x: self.survivalPerTicket[x] / ticket_count[x] \
                 if x in self.survivalPerTicket else self.survivalPerTicket.mean())
             df['Know_Ticket_Survival_percentage'] = df['Ticket'].map(
