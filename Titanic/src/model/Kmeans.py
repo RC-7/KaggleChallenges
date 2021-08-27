@@ -10,7 +10,8 @@ from Titanic.src.Util.Util import Util
 from Titanic.src.Util.Util import get_validation_curve
 from Titanic.src.Util.Util import scale_df
 
-
+# TODO Adapt file to refactor of Util Class: moving scale_df inside class, refactor of getdf and re optimise for
+#  new Features
 def main():
     util = Util()
     [X, y] = util.get_df('/train.csv')

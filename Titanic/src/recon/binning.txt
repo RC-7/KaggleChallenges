@@ -1,0 +1,38 @@
+With max iter: 1000
+
+
+4 Age bins with Hot encoding:
+
+-----------------------------------------------
+|        f1 score on train data: 0.8778979907264295        |
+|  cv score [0.81564246 0.78651685 0.84269663 0.79213483 0.83707865] |
+|    Percentage Survived test set 0.37799043062200954       |
+|     Percentage Survived training set 0.3838383838383838   |
+|Percentage predicted Survived training set 0.34231200897867564 |
+|        Neural net mean accuracy 0.9113355780022446      |
+-----------------------------------------------
+Your submission was successfully saved!
+
+
+9 Age bins with Hot encoding:
+
+-----------------------------------------------
+|        f1 score on train data: 0.8813559322033898        |
+|  cv score [0.80446927 0.79775281 0.84269663 0.78089888 0.86516854] |
+|    Percentage Survived test set 0.3875598086124402       |
+|     Percentage Survived training set 0.3838383838383838   |
+|Percentage predicted Survived training set 0.3445566778900112 |
+|        Neural net mean accuracy 0.9135802469135802      |
+-----------------------------------------------
+Your submission was successfully saved!
+
+9 Age bins no Hot encoding:
+-----------------------------------------------
+|        f1 score on train data: 0.869431643625192        |
+|  cv score [0.79888268 0.78651685 0.83707865 0.7752809  0.84831461] |
+|    Percentage Survived test set 0.37799043062200954       |
+|     Percentage Survived training set 0.3838383838383838   |
+|Percentage predicted Survived training set 0.3468013468013468 |
+|        Neural net mean accuracy 0.9046015712682379      |
+-----------------------------------------------
+Your submission was successfully saved!

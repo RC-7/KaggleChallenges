@@ -43,6 +43,7 @@ def main():
 
     if util.configValues['predict']:
         alpha = 1e-5
+        # TODO consider reducing max iter for training / testing if the model is over fitting
         params = {"solver": 'adam', 'alpha': alpha, 'hidden_layer_sizes': (50, 50), 'random_state': 1,
                   "max_iter": 10000, 'activation': 'tanh', 'learning_rate': 'adaptive'}
         mlp = MLPClassifier(**params)
@@ -68,7 +69,7 @@ def main():
 
         print("-----------------------------------------------")
         output = pd.DataFrame({'PassengerId': df.PassengerId, 'Survived': overall_predictions})
-        output.to_csv('../../predictions/NeuralNet.csv', index=False, float_format='%.0f')
+        output.to_csv('../../predictions/NeuralNetBin9Hot.csv', index=False, float_format='%.0f')
         print("Your submission was successfully saved!")
 
 

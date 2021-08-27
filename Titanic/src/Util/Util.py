@@ -11,6 +11,8 @@ import bisect
 from sklearn.model_selection import cross_val_score
 from sklearn.neural_network import MLPRegressor
 import seaborn as sns
+from sklearn.cluster import KMeans
+import bisect
 
 
 def group_by_sub_string(original_string, list_of_sub_strings):
@@ -116,15 +118,12 @@ class Util:
         self.fullDf['HasCabin'] = self.fullDf['CabinGrouping'].map(lambda x: 1 if x != 'Unknown' else 0)
         features_for_onehot_encoding = ["Title", "Pclass", "Embarked", "CabinGrouping"]
 
-        # self.fullDf['Fare'] = pd.qcut(self.fullDf['Fare'], 9, labels=False, precision=0)  # Might not be needed for MLP
-
         self.fullDf['Sex'].replace({"female": 1, "male": 0}, inplace=True)
 
         # Dropping columns
         self.fullDf.drop('Name', inplace=True, axis=1)
         self.fullDf.drop('PassengerId', inplace=True, axis=1)
         self.fullDf.drop('Cabin', inplace=True, axis=1)
-        # self.fullDf.drop('Age', inplace=True, axis=1)
         self.fullDf.drop('Ticket', inplace=True, axis=1)
 
         # filling null values
@@ -162,9 +161,13 @@ class Util:
         self.fullDf["Age"][Age_None_list] = age_predictions
 
         [self.x_train, self.x_test] = extract_datasets(self.fullDf)
+        # age_bins_9intervals = [10, 18, 25, 30, 27, 45, 55, 67]
+        # age_bins_4intervals = [14, 28.5, 43]
+        # self.fullDf['Age'] = self.fullDf['Age'].map(lambda x: bisect.bisect_left(age_bins_9intervals, x))
+        # self.fullDf = onehot_encoding(self.fullDf, ['Age'])
+        [self.x_train, self.x_test] = extract_datasets(self.fullDf)
         self.y_train = x_train[['Survived']]
         self.fullDf.drop('Survived', inplace=True, axis=1)
-
 
     def scale_df(self, X):
         if type(self.scalar) != preprocessing.StandardScaler:
