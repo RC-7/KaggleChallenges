@@ -1,0 +1,1661 @@
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'SibSp' 'Parch']
+Optimal clusters 70 with f1 score 0.3008849557522124
+['Pclass' 'Sex' 'Age' 'SibSp' 'Parch']
+0.3008849557522124
+GlobalOptima {}
+GlobalOptima 0.3008849557522124
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+Optimal clusters 30 with f1 score 0.32989690721649484
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.32989690721649484
+GlobalOptima {}
+GlobalOptima 0.32989690721649484
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'SibSp' 'Embarked']
+Optimal clusters 60 with f1 score 0.2956521739130435
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.32989690721649484
+GlobalOptima {}
+GlobalOptima 0.32989690721649484
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'SibSp' 'Title']
+Optimal clusters 30 with f1 score 0.23655913978494625
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.32989690721649484
+GlobalOptima {}
+GlobalOptima 0.32989690721649484
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'SibSp' 'Married']
+Optimal clusters 40 with f1 score 0.26785714285714285
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.32989690721649484
+GlobalOptima {}
+GlobalOptima 0.32989690721649484
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'SibSp' 'SurnameCount']
+Optimal clusters 40 with f1 score 0.15686274509803919
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.32989690721649484
+GlobalOptima {}
+GlobalOptima 0.32989690721649484
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'SibSp' 'Ticket_Frequency']
+Optimal clusters 10 with f1 score 0.24742268041237114
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.32989690721649484
+GlobalOptima {}
+GlobalOptima 0.32989690721649484
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'SibSp' 'CabinGrouping']
+Optimal clusters 50 with f1 score 0.41441441441441446
+['Pclass' 'Sex' 'Age' 'SibSp' 'CabinGrouping']
+0.41441441441441446
+GlobalOptima {}
+GlobalOptima 0.41441441441441446
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'SibSp' 'HasCabin']
+Optimal clusters 20 with f1 score 0.11627906976744184
+['Pclass' 'Sex' 'Age' 'SibSp' 'CabinGrouping']
+0.41441441441441446
+GlobalOptima {}
+GlobalOptima 0.41441441441441446
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'SibSp' 'Ticket_percentage_survival']
+Optimal clusters 50 with f1 score 0.2545454545454546
+['Pclass' 'Sex' 'Age' 'SibSp' 'CabinGrouping']
+0.41441441441441446
+GlobalOptima {}
+GlobalOptima 0.41441441441441446
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'SibSp' 'Know_Ticket_Survival_percentage']
+Optimal clusters 60 with f1 score 0.3361344537815126
+['Pclass' 'Sex' 'Age' 'SibSp' 'CabinGrouping']
+0.41441441441441446
+GlobalOptima {}
+GlobalOptima 0.41441441441441446
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Parch' 'Fare']
+Optimal clusters 20 with f1 score 0.30000000000000004
+['Pclass' 'Sex' 'Age' 'SibSp' 'CabinGrouping']
+0.41441441441441446
+GlobalOptima {}
+GlobalOptima 0.41441441441441446
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Parch' 'Embarked']
+Optimal clusters 80 with f1 score 0.25
+['Pclass' 'Sex' 'Age' 'SibSp' 'CabinGrouping']
+0.41441441441441446
+GlobalOptima {}
+GlobalOptima 0.41441441441441446
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Parch' 'Title']
+Optimal clusters 30 with f1 score 0.27184466019417475
+['Pclass' 'Sex' 'Age' 'SibSp' 'CabinGrouping']
+0.41441441441441446
+GlobalOptima {}
+GlobalOptima 0.41441441441441446
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Parch' 'Married']
+Optimal clusters 30 with f1 score 0.2831858407079646
+['Pclass' 'Sex' 'Age' 'SibSp' 'CabinGrouping']
+0.41441441441441446
+GlobalOptima {}
+GlobalOptima 0.41441441441441446
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Parch' 'SurnameCount']
+Optimal clusters 60 with f1 score 0.3870967741935483
+['Pclass' 'Sex' 'Age' 'SibSp' 'CabinGrouping']
+0.41441441441441446
+GlobalOptima {}
+GlobalOptima 0.41441441441441446
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Parch' 'Ticket_Frequency']
+Optimal clusters 70 with f1 score 0.17094017094017092
+['Pclass' 'Sex' 'Age' 'SibSp' 'CabinGrouping']
+0.41441441441441446
+GlobalOptima {}
+GlobalOptima 0.41441441441441446
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Parch' 'CabinGrouping']
+Optimal clusters 0 with f1 score 0
+['Pclass' 'Sex' 'Age' 'SibSp' 'CabinGrouping']
+0.41441441441441446
+GlobalOptima {}
+GlobalOptima 0.41441441441441446
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Parch' 'HasCabin']
+Optimal clusters 10 with f1 score 0.4150943396226415
+['Pclass' 'Sex' 'Age' 'Parch' 'HasCabin']
+0.4150943396226415
+GlobalOptima {}
+GlobalOptima 0.4150943396226415
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Parch' 'Ticket_percentage_survival']
+Optimal clusters 60 with f1 score 0.04597701149425287
+['Pclass' 'Sex' 'Age' 'Parch' 'HasCabin']
+0.4150943396226415
+GlobalOptima {}
+GlobalOptima 0.4150943396226415
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Parch' 'Know_Ticket_Survival_percentage']
+Optimal clusters 10 with f1 score 0.27499999999999997
+['Pclass' 'Sex' 'Age' 'Parch' 'HasCabin']
+0.4150943396226415
+GlobalOptima {}
+GlobalOptima 0.4150943396226415
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Fare' 'Embarked']
+Optimal clusters 40 with f1 score 0.13592233009708737
+['Pclass' 'Sex' 'Age' 'Parch' 'HasCabin']
+0.4150943396226415
+GlobalOptima {}
+GlobalOptima 0.4150943396226415
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Fare' 'Title']
+Optimal clusters 70 with f1 score 0.14432989690721648
+['Pclass' 'Sex' 'Age' 'Parch' 'HasCabin']
+0.4150943396226415
+GlobalOptima {}
+GlobalOptima 0.4150943396226415
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Fare' 'Married']
+Optimal clusters 40 with f1 score 0.25862068965517243
+['Pclass' 'Sex' 'Age' 'Parch' 'HasCabin']
+0.4150943396226415
+GlobalOptima {}
+GlobalOptima 0.4150943396226415
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Fare' 'SurnameCount']
+Optimal clusters 40 with f1 score 0.11904761904761907
+['Pclass' 'Sex' 'Age' 'Parch' 'HasCabin']
+0.4150943396226415
+GlobalOptima {}
+GlobalOptima 0.4150943396226415
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Fare' 'Ticket_Frequency']
+Optimal clusters 80 with f1 score 0.2950819672131147
+['Pclass' 'Sex' 'Age' 'Parch' 'HasCabin']
+0.4150943396226415
+GlobalOptima {}
+GlobalOptima 0.4150943396226415
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Fare' 'CabinGrouping']
+Optimal clusters 70 with f1 score 0.3053435114503817
+['Pclass' 'Sex' 'Age' 'Parch' 'HasCabin']
+0.4150943396226415
+GlobalOptima {}
+GlobalOptima 0.4150943396226415
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Fare' 'HasCabin']
+Optimal clusters 40 with f1 score 0.3620689655172414
+['Pclass' 'Sex' 'Age' 'Parch' 'HasCabin']
+0.4150943396226415
+GlobalOptima {}
+GlobalOptima 0.4150943396226415
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Fare' 'Ticket_percentage_survival']
+Optimal clusters 80 with f1 score 0.34782608695652173
+['Pclass' 'Sex' 'Age' 'Parch' 'HasCabin']
+0.4150943396226415
+GlobalOptima {}
+GlobalOptima 0.4150943396226415
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Fare' 'Know_Ticket_Survival_percentage']
+Optimal clusters 90 with f1 score 0.36065573770491804
+['Pclass' 'Sex' 'Age' 'Parch' 'HasCabin']
+0.4150943396226415
+GlobalOptima {}
+GlobalOptima 0.4150943396226415
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Embarked' 'Title']
+Optimal clusters 40 with f1 score 0.1836734693877551
+['Pclass' 'Sex' 'Age' 'Parch' 'HasCabin']
+0.4150943396226415
+GlobalOptima {}
+GlobalOptima 0.4150943396226415
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Embarked' 'Married']
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'SibSp' 'Parch']
+Optimal clusters 50 with f1 score 0.039215686274509796
+['Pclass' 'Sex' 'Age' 'Parch' 'HasCabin']
+0.4150943396226415
+GlobalOptima {}
+GlobalOptima 0.4150943396226415
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Embarked' 'SurnameCount']
+Optimal clusters 70 with f1 score 0.32692307692307687
+['Pclass' 'Sex' 'Age' 'SibSp' 'Parch']
+0.32692307692307687
+GlobalOptima {}
+GlobalOptima 0.32692307692307687
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+Optimal clusters 60 with f1 score 0.10416666666666667
+['Pclass' 'Sex' 'Age' 'Parch' 'HasCabin']
+0.4150943396226415
+GlobalOptima {}
+GlobalOptima 0.4150943396226415
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Embarked' 'Ticket_Frequency']
+Optimal clusters 40 with f1 score 0.5471698113207547
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'SibSp' 'Embarked']
+Optimal clusters 20 with f1 score 0.10810810810810811
+['Pclass' 'Sex' 'Age' 'Parch' 'HasCabin']
+0.4150943396226415
+GlobalOptima {}
+GlobalOptima 0.4150943396226415
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Embarked' 'CabinGrouping']
+Optimal clusters 50 with f1 score 0.3448275862068966
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'SibSp' 'Title']
+Optimal clusters 90 with f1 score 0.4909090909090909
+['Pclass' 'Sex' 'Age' 'Embarked' 'CabinGrouping']
+0.4909090909090909
+GlobalOptima {}
+GlobalOptima 0.4909090909090909
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Embarked' 'HasCabin']
+Optimal clusters 10 with f1 score 0.34615384615384615
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'SibSp' 'Married']
+Optimal clusters 70 with f1 score 0.23076923076923078
+['Pclass' 'Sex' 'Age' 'Embarked' 'CabinGrouping']
+0.4909090909090909
+GlobalOptima {}
+GlobalOptima 0.4909090909090909
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Embarked' 'Ticket_percentage_survival']
+Optimal clusters 80 with f1 score 0.37168141592920356
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'SibSp' 'SurnameCount']
+Optimal clusters 20 with f1 score 0.06666666666666667
+['Pclass' 'Sex' 'Age' 'Embarked' 'CabinGrouping']
+0.4909090909090909
+GlobalOptima {}
+GlobalOptima 0.4909090909090909
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Embarked' 'Know_Ticket_Survival_percentage']
+Optimal clusters 80 with f1 score 0.5428571428571428
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'SibSp' 'Ticket_Frequency']
+Optimal clusters 20 with f1 score 0.13333333333333333
+['Pclass' 'Sex' 'Age' 'Embarked' 'CabinGrouping']
+0.4909090909090909
+GlobalOptima {}
+GlobalOptima 0.4909090909090909
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Title' 'Married']
+Optimal clusters 50 with f1 score 0.3620689655172414
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'SibSp' 'CabinGrouping']
+Optimal clusters 40 with f1 score 0.26530612244897955
+['Pclass' 'Sex' 'Age' 'Embarked' 'CabinGrouping']
+0.4909090909090909
+GlobalOptima {}
+GlobalOptima 0.4909090909090909
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Title' 'SurnameCount']
+Optimal clusters 30 with f1 score 0.1875
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'SibSp' 'HasCabin']
+Optimal clusters 30 with f1 score 0.17391304347826086
+['Pclass' 'Sex' 'Age' 'Embarked' 'CabinGrouping']
+0.4909090909090909
+GlobalOptima {}
+GlobalOptima 0.4909090909090909
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Title' 'Ticket_Frequency']
+Optimal clusters 50 with f1 score 0.3883495145631068
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'SibSp' 'Ticket_percentage_survival']
+Optimal clusters 40 with f1 score 0.13043478260869565
+['Pclass' 'Sex' 'Age' 'Embarked' 'CabinGrouping']
+0.4909090909090909
+GlobalOptima {}
+GlobalOptima 0.4909090909090909
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Title' 'CabinGrouping']
+Optimal clusters 50 with f1 score 0.17857142857142855
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'SibSp' 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.5360824742268041
+['Pclass' 'Sex' 'Age' 'Title' 'CabinGrouping']
+0.5360824742268041
+GlobalOptima {}
+GlobalOptima 0.5360824742268041
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Title' 'HasCabin']
+Optimal clusters 50 with f1 score 0.2786885245901639
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Parch' 'Fare']
+Optimal clusters 80 with f1 score 0.2702702702702703
+['Pclass' 'Sex' 'Age' 'Title' 'CabinGrouping']
+0.5360824742268041
+GlobalOptima {}
+GlobalOptima 0.5360824742268041
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Title' 'Ticket_percentage_survival']
+Optimal clusters 80 with f1 score 0.339622641509434
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Parch' 'Embarked']
+Optimal clusters 50 with f1 score 0.3302752293577982
+['Pclass' 'Sex' 'Age' 'Title' 'CabinGrouping']
+0.5360824742268041
+GlobalOptima {}
+GlobalOptima 0.5360824742268041
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Title' 'Know_Ticket_Survival_percentage']
+Optimal clusters 10 with f1 score 0.5
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Parch' 'Title']
+Optimal clusters 60 with f1 score 0.3739837398373984
+['Pclass' 'Sex' 'Age' 'Title' 'CabinGrouping']
+0.5360824742268041
+GlobalOptima {}
+GlobalOptima 0.5360824742268041
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Married' 'SurnameCount']
+Optimal clusters 30 with f1 score 0.29999999999999993
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Parch' 'Married']
+Optimal clusters 70 with f1 score 0.3
+['Pclass' 'Sex' 'Age' 'Title' 'CabinGrouping']
+0.5360824742268041
+GlobalOptima {}
+GlobalOptima 0.5360824742268041
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Married' 'Ticket_Frequency']
+Optimal clusters 70 with f1 score 0.276595744680851
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Parch' 'SurnameCount']
+Optimal clusters 60 with f1 score 0.35000000000000003
+['Pclass' 'Sex' 'Age' 'Title' 'CabinGrouping']
+0.5360824742268041
+GlobalOptima {}
+GlobalOptima 0.5360824742268041
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Married' 'CabinGrouping']
+Optimal clusters 40 with f1 score 0.3333333333333333
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Parch' 'Ticket_Frequency']
+Optimal clusters 60 with f1 score 0.45454545454545453
+['Pclass' 'Sex' 'Age' 'Title' 'CabinGrouping']
+0.5360824742268041
+GlobalOptima {}
+GlobalOptima 0.5360824742268041
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Married' 'HasCabin']
+Optimal clusters 80 with f1 score 0.2909090909090909
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Parch' 'CabinGrouping']
+Optimal clusters 30 with f1 score 0.2162162162162162
+['Pclass' 'Sex' 'Age' 'Title' 'CabinGrouping']
+0.5360824742268041
+GlobalOptima {}
+GlobalOptima 0.5360824742268041
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Married' 'Ticket_percentage_survival']
+Optimal clusters 30 with f1 score 0.25225225225225223
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Parch' 'HasCabin']
+Optimal clusters 40 with f1 score 0.2641509433962264
+['Pclass' 'Sex' 'Age' 'Title' 'CabinGrouping']
+0.5360824742268041
+GlobalOptima {}
+GlobalOptima 0.5360824742268041
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Married' 'Know_Ticket_Survival_percentage']
+Optimal clusters 50 with f1 score 0.339622641509434
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Parch' 'Ticket_percentage_survival']
+Optimal clusters 80 with f1 score 0.19469026548672566
+['Pclass' 'Sex' 'Age' 'Title' 'CabinGrouping']
+0.5360824742268041
+GlobalOptima {}
+GlobalOptima 0.5360824742268041
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_Frequency']
+Optimal clusters 30 with f1 score 0.22429906542056074
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Parch' 'Know_Ticket_Survival_percentage']
+Optimal clusters 50 with f1 score 0.2945736434108527
+['Pclass' 'Sex' 'Age' 'Title' 'CabinGrouping']
+0.5360824742268041
+GlobalOptima {}
+GlobalOptima 0.5360824742268041
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'SurnameCount' 'CabinGrouping']
+Optimal clusters 40 with f1 score 0.2476190476190476
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Fare' 'Embarked']
+Optimal clusters 50 with f1 score 0.27419354838709675
+['Pclass' 'Sex' 'Age' 'Title' 'CabinGrouping']
+0.5360824742268041
+GlobalOptima {}
+GlobalOptima 0.5360824742268041
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'SurnameCount' 'HasCabin']
+Optimal clusters 20 with f1 score 0.2772277227722772
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Fare' 'Title']
+Optimal clusters 30 with f1 score 0.3220338983050848
+['Pclass' 'Sex' 'Age' 'Title' 'CabinGrouping']
+0.5360824742268041
+GlobalOptima {}
+GlobalOptima 0.5360824742268041
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+Optimal clusters 30 with f1 score 0.2545454545454546
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Fare' 'Married']
+Optimal clusters 90 with f1 score 0.5811965811965812
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'SurnameCount' 'Know_Ticket_Survival_percentage']
+Optimal clusters 80 with f1 score 0.2654867256637168
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Fare' 'SurnameCount']
+Optimal clusters 20 with f1 score 0.10989010989010989
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Ticket_Frequency' 'CabinGrouping']
+Optimal clusters 90 with f1 score 0.30434782608695654
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Fare' 'Ticket_Frequency']
+Optimal clusters 70 with f1 score 0.28571428571428575
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Ticket_Frequency' 'HasCabin']
+Optimal clusters 90 with f1 score 0.41904761904761906
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Fare' 'CabinGrouping']
+Optimal clusters 80 with f1 score 0.25925925925925924
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Ticket_Frequency' 'Ticket_percentage_survival']
+Optimal clusters 60 with f1 score 0.3846153846153846
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Fare' 'HasCabin']
+Optimal clusters 30 with f1 score 0.3584905660377358
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Ticket_Frequency' 'Know_Ticket_Survival_percentage']
+Optimal clusters 60 with f1 score 0.42
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Fare' 'Ticket_percentage_survival']
+Optimal clusters 50 with f1 score 0.19999999999999998
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'CabinGrouping' 'HasCabin']
+Optimal clusters 40 with f1 score 0.3853211009174311
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Fare' 'Know_Ticket_Survival_percentage']
+Optimal clusters 60 with f1 score 0.35185185185185186
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'CabinGrouping' 'Ticket_percentage_survival']
+Optimal clusters 90 with f1 score 0.3220338983050847
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Embarked' 'Title']
+Optimal clusters 50 with f1 score 0.19780219780219777
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'CabinGrouping' 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.46846846846846846
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Embarked' 'Married']
+Optimal clusters 50 with f1 score 0.34
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'HasCabin' 'Ticket_percentage_survival']
+Optimal clusters 50 with f1 score 0.3103448275862069
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Embarked' 'SurnameCount']
+Optimal clusters 10 with f1 score 0.0879120879120879
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'HasCabin' 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.3584905660377359
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Embarked' 'Ticket_Frequency']
+Optimal clusters 90 with f1 score 0.32432432432432434
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Ticket_percentage_survival'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.19354838709677416
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Embarked' 'CabinGrouping']
+Optimal clusters 80 with f1 score 0.38834951456310673
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Parch' 'Fare']
+Optimal clusters 40 with f1 score 0.4482758620689656
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Embarked' 'HasCabin']
+Optimal clusters 60 with f1 score 0.24
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Parch' 'Embarked']
+Optimal clusters 40 with f1 score 0.14285714285714285
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Embarked' 'Ticket_percentage_survival']
+Optimal clusters 20 with f1 score 0.12121212121212122
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Parch' 'Title']
+Optimal clusters 50 with f1 score 0.14953271028037385
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Embarked' 'Know_Ticket_Survival_percentage']
+Optimal clusters 40 with f1 score 0.1941747572815534
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Parch' 'Married']
+Optimal clusters 20 with f1 score 0.1686746987951807
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Title' 'Married']
+Optimal clusters 40 with f1 score 0.23076923076923078
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Parch' 'SurnameCount']
+Optimal clusters 50 with f1 score 0.4220183486238532
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Title' 'SurnameCount']
+Optimal clusters 60 with f1 score 0.33628318584070793
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Parch' 'Ticket_Frequency']
+Optimal clusters 60 with f1 score 0.23300970873786406
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Title' 'Ticket_Frequency']
+Optimal clusters 80 with f1 score 0.24806201550387594
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Parch' 'CabinGrouping']
+Optimal clusters 70 with f1 score 0.48648648648648646
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Title' 'CabinGrouping']
+Optimal clusters 30 with f1 score 0.37254901960784315
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Parch' 'HasCabin']
+Optimal clusters 50 with f1 score 0.27956989247311825
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Title' 'HasCabin']
+Optimal clusters 40 with f1 score 0.15384615384615385
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Parch' 'Ticket_percentage_survival']
+Optimal clusters 40 with f1 score 0.29411764705882354
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Parch' 'Know_Ticket_Survival_percentage']
+Optimal clusters 70 with f1 score 0.17204301075268816
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Title' 'Ticket_percentage_survival']
+Optimal clusters 20 with f1 score 0.18947368421052632
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Fare' 'Embarked']
+Optimal clusters 60 with f1 score 0.3883495145631068
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Title' 'Know_Ticket_Survival_percentage']
+Optimal clusters 0 with f1 score 0
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Fare' 'Title']
+Optimal clusters 90 with f1 score 0.33027522935779813
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Married' 'SurnameCount']
+Optimal clusters 80 with f1 score 0.19469026548672563
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Fare' 'Married']
+Optimal clusters 50 with f1 score 0.23636363636363636
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Married' 'Ticket_Frequency']
+Optimal clusters 60 with f1 score 0.4107142857142857
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Fare' 'SurnameCount']
+Optimal clusters 50 with f1 score 0.12844036697247707
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Married' 'CabinGrouping']
+Optimal clusters 30 with f1 score 0.18867924528301888
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Fare' 'Ticket_Frequency']
+Optimal clusters 60 with f1 score 0.2653061224489796
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Married' 'HasCabin']
+Optimal clusters 40 with f1 score 0.3157894736842105
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Fare' 'CabinGrouping']
+Optimal clusters 40 with f1 score 0.0851063829787234
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Married' 'Ticket_percentage_survival']
+Optimal clusters 40 with f1 score 0.2692307692307692
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Fare' 'HasCabin']
+Optimal clusters 40 with f1 score 0.36893203883495146
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Married' 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.2926829268292683
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Fare' 'Ticket_percentage_survival']
+Optimal clusters 80 with f1 score 0.44859813084112143
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_Frequency']
+Optimal clusters 20 with f1 score 0.3191489361702128
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'SurnameCount' 'CabinGrouping']
+Optimal clusters 30 with f1 score 0.31372549019607837
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Fare' 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.2718446601941748
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'SurnameCount' 'HasCabin']
+Optimal clusters 50 with f1 score 0.26153846153846155
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Embarked' 'Title']
+Optimal clusters 50 with f1 score 0.2549019607843137
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+Optimal clusters 20 with f1 score 0.15384615384615385
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Embarked' 'Married']
+Optimal clusters 40 with f1 score 0.3428571428571429
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'SurnameCount' 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.339622641509434
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Embarked' 'SurnameCount']
+Optimal clusters 30 with f1 score 0.2528735632183908
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Ticket_Frequency' 'CabinGrouping']
+Optimal clusters 90 with f1 score 0.22608695652173916
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Embarked' 'Ticket_Frequency']
+Optimal clusters 60 with f1 score 0.46774193548387094
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Ticket_Frequency' 'HasCabin']
+Optimal clusters 30 with f1 score 0.13333333333333333
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Embarked' 'CabinGrouping']
+Optimal clusters 30 with f1 score 0.13725490196078433
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+Optimal clusters 60 with f1 score 0.26168224299065423
+---------------------
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+ket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Embarked' 'HasCabin']
+Optimal clusters 50 with f1 score 0.3298969072164948
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Ticket_Frequency' 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.3516483516483516
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Embarked' 'Ticket_percentage_survival']
+Optimal clusters 30 with f1 score 0.1627906976744186
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'CabinGrouping' 'HasCabin']
+Optimal clusters 50 with f1 score 0.15238095238095237
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Embarked' 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.2680412371134021
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'CabinGrouping' 'Ticket_percentage_survival']
+Optimal clusters 70 with f1 score 0.3516483516483517
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Title' 'Married']
+Optimal clusters 10 with f1 score 0.047619047619047616
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Title' 'SurnameCount']
+Optimal clusters 30 with f1 score 0.2702702702702703
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'CabinGrouping' 'Know_Ticket_Survival_percentage']
+Optimal clusters 40 with f1 score 0.2935779816513761
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'HasCabin' 'Ticket_percentage_survival']
+Optimal clusters 10 with f1 score 0.10434782608695653
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Title' 'Ticket_Frequency']
+Optimal clusters 90 with f1 score 0.22448979591836735
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'HasCabin' 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.10638297872340426
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Title' 'CabinGrouping']
+Optimal clusters 80 with f1 score 0.33333333333333337
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Age' 'Ticket_percentage_survival'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 40 with f1 score 0.2830188679245283
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Title' 'HasCabin']
+Optimal clusters 50 with f1 score 0.2204724409448819
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Parch' 'Fare']
+Optimal clusters 30 with f1 score 0.24444444444444446
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Title' 'Ticket_percentage_survival']
+Optimal clusters 20 with f1 score 0.07142857142857142
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Parch' 'Embarked']
+Optimal clusters 40 with f1 score 0.20689655172413793
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Title' 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.3181818181818182
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Married' 'SurnameCount']
+Optimal clusters 10 with f1 score 0.4807692307692308
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Parch' 'Title']
+Optimal clusters 30 with f1 score 0.25
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimal clusters 40 with f1 score 0.34782608695652173
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Parch' 'Married']
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Married' 'Ticket_Frequency']
+Optimal clusters 40 with f1 score 0.18749999999999997
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Parch' 'SurnameCount']
+Optimal clusters 50 with f1 score 0.3137254901960784
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Married' 'CabinGrouping']
+Optimal clusters 70 with f1 score 0.2772277227722772
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Parch' 'Ticket_Frequency']
+Optimal clusters 10 with f1 score 0.2291666666666667
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Married' 'HasCabin']
+Optimal clusters 70 with f1 score 0.3440860215053763
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+Optimal clusters 40 with f1 score 0.41237113402061853
+---------------------
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Parch' 'CabinGrouping']
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Married' 'Ticket_percentage_survival']
+Optimal clusters 10 with f1 score 0.49090909090909085
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Married' 'Know_Ticket_Survival_percentage']
+Optimal clusters 60 with f1 score 0.14457831325301204
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Parch' 'HasCabin']
+Optimal clusters 30 with f1 score 0.3770491803278689
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Parch' 'Ticket_percentage_survival']
+Optimal clusters 70 with f1 score 0.423076923076923
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'SurnameCount' 'Ticket_Frequency']
+Optimal clusters 50 with f1 score 0.1875
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Parch' 'Know_Ticket_Survival_percentage']
+Optimal clusters 40 with f1 score 0.3548387096774193
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'SurnameCount' 'CabinGrouping']
+Optimal clusters 70 with f1 score 0.3384615384615385
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Fare' 'Embarked']
+Optimal clusters 50 with f1 score 0.288
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'SurnameCount' 'HasCabin']
+Optimal clusters 60 with f1 score 0.3089430894308943
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Fare' 'Title']
+Optimal clusters 20 with f1 score 0.4426229508196721
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'SurnameCount' 'Ticket_percentage_survival']
+Optimal clusters 40 with f1 score 0.10526315789473684
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Fare' 'Married']
+Optimal clusters 40 with f1 score 0.34
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'SurnameCount' 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.4
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Fare' 'SurnameCount']
+Optimal clusters 20 with f1 score 0.2476190476190476
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Ticket_Frequency' 'CabinGrouping']
+Optimal clusters 20 with f1 score 0.33999999999999997
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Fare' 'Ticket_Frequency']
+Optimal clusters 50 with f1 score 0.36974789915966394
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Ticket_Frequency' 'HasCabin']
+Optimal clusters 40 with f1 score 0.15384615384615385
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Fare' 'CabinGrouping']
+Optimal clusters 20 with f1 score 0.04938271604938272
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Ticket_Frequency' 'Ticket_percentage_survival']
+Optimal clusters 50 with f1 score 0.35294117647058826
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Fare' 'HasCabin']
+Optimal clusters 20 with f1 score 0.021276595744680854
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Ticket_Frequency'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.25925925925925924
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Fare' 'Ticket_percentage_survival']
+Optimal clusters 40 with f1 score 0.0851063829787234
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'CabinGrouping' 'HasCabin']
+Optimal clusters 90 with f1 score 0.1509433962264151
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Fare' 'Know_Ticket_Survival_percentage']
+Optimal clusters 40 with f1 score 0.2524271844660194
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'CabinGrouping' 'Ticket_percentage_survival']
+Optimal clusters 90 with f1 score 0.20512820512820515
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Embarked' 'Title']
+Optimal clusters 60 with f1 score 0.2686567164179105
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'CabinGrouping' 'Know_Ticket_Survival_percentage']
+Optimal clusters 40 with f1 score 0.24
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Embarked' 'Married']
+Optimal clusters 70 with f1 score 0.41538461538461535
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'HasCabin' 'Ticket_percentage_survival']
+Optimal clusters 30 with f1 score 0.29885057471264365
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Embarked' 'SurnameCount']
+Optimal clusters 30 with f1 score 0.15217391304347824
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'HasCabin' 'Know_Ticket_Survival_percentage']
+Optimal clusters 70 with f1 score 0.18181818181818182
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Embarked' 'Ticket_Frequency']
+Optimal clusters 30 with f1 score 0.2150537634408602
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Ticket_percentage_survival'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 70 with f1 score 0.3260869565217391
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Embarked' 'CabinGrouping']
+Optimal clusters 60 with f1 score 0.3392857142857143
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Parch' 'Fare' 'Embarked']
+Optimal clusters 30 with f1 score 0.15730337078651685
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Embarked' 'HasCabin']
+Optimal clusters 60 with f1 score 0.2
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Parch' 'Fare' 'Title']
+Optimal clusters 90 with f1 score 0.32
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Embarked' 'Ticket_percentage_survival']
+Optimal clusters 50 with f1 score 0.30476190476190473
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Parch' 'Fare' 'Married']
+Optimal clusters 20 with f1 score 0.3653846153846154
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Embarked' 'Know_Ticket_Survival_percentage']
+Optimal clusters 40 with f1 score 0.3529411764705882
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Parch' 'Fare' 'SurnameCount']
+Optimal clusters 50 with f1 score 0.3963963963963964
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Title' 'Married']
+Optimal clusters 40 with f1 score 0.20560747663551404
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Parch' 'Fare' 'Ticket_Frequency']
+Optimal clusters 20 with f1 score 0.2666666666666667
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Title' 'SurnameCount']
+Optimal clusters 60 with f1 score 0.2150537634408602
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Parch' 'Fare' 'CabinGrouping']
+Optimal clusters 20 with f1 score 0.3838383838383838
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Title' 'Ticket_Frequency']
+Optimal clusters 10 with f1 score 0.45161290322580644
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Parch' 'Fare' 'HasCabin']
+Optimal clusters 80 with f1 score 0.25
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Title' 'CabinGrouping']
+Optimal clusters 50 with f1 score 0.16666666666666666
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Parch' 'Fare' 'Ticket_percentage_survival']
+Optimal clusters 10 with f1 score 0.4554455445544554
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Title' 'HasCabin']
+Optimal clusters 70 with f1 score 0.30357142857142855
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Parch' 'Fare' 'Know_Ticket_Survival_percentage']
+Optimal clusters 40 with f1 score 0.4
+['Pclass' 'Sex' 'Age' 'SibSp' 'Fare']
+0.5471698113207547
+GlobalOptima {}
+GlobalOptima 0.5471698113207547
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'SibSp' 'Title' 'Ticket_percentage_survival']
+Optimal clusters 20 with f1 score 0.4954128440366973
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Parch' 'Embarked' 'Title']
+Optimal clusters 40 with f1 score 0.2680412371134021
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Parch' 'Embarked' 'Married']
+Optimal clusters 30 with f1 score 0.3653846153846154
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Parch' 'Embarked' 'SurnameCount']
+Optimal clusters 30 with f1 score 0.35593220338983056
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Parch' 'Embarked' 'Ticket_Frequency']
+Optimal clusters 10 with f1 score 0.33333333333333337
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Parch' 'Embarked' 'CabinGrouping']
+Optimal clusters 60 with f1 score 0.125
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Parch' 'Embarked' 'HasCabin']
+Optimal clusters 10 with f1 score 0.31111111111111106
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Parch' 'Embarked' 'Ticket_percentage_survival']
+Optimal clusters 30 with f1 score 0.20754716981132074
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Parch' 'Embarked' 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.36036036036036034
+['Pclass' 'Sex' 'Age' 'SurnameCount' 'Ticket_percentage_survival']
+0.5811965811965812
+GlobalOptima {}
+GlobalOptima 0.5811965811965812
+---------------------
+Optimising feature Set ['Pclass' 'Sex' 'Parch' 'Title' 'Married']
+

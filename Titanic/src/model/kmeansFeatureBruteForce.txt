@@ -1,0 +1,3609 @@
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin'
+ 'CabinGrouping']
+Optimal clusters 30 with f1 score 0.15
+['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin'
+ 'CabinGrouping']
+0.15
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin'
+ 'CabinGrouping']
+GlobalOptima 0.15
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin' 'Pclass']
+Optimal clusters 30 with f1 score 0.06185567010309278
+['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin'
+ 'CabinGrouping']
+0.15
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin'
+ 'CabinGrouping']
+GlobalOptima 0.15
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin' 'Married']
+Optimal clusters 30 with f1 score 0.022471910112359553
+['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin'
+ 'CabinGrouping']
+0.15
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin'
+ 'CabinGrouping']
+GlobalOptima 0.15
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.11363636363636363
+['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin'
+ 'CabinGrouping']
+0.15
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin'
+ 'CabinGrouping']
+GlobalOptima 0.15
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin' 'Age']
+Optimal clusters 30 with f1 score 0.023809523809523808
+['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin'
+ 'CabinGrouping']
+0.15
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin'
+ 'CabinGrouping']
+GlobalOptima 0.15
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'CabinGrouping'
+ 'Pclass']
+Optimal clusters 20 with f1 score 0.04878048780487806
+['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin'
+ 'CabinGrouping']
+0.15
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin'
+ 'CabinGrouping']
+GlobalOptima 0.15
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'CabinGrouping'
+ 'Married']
+Optimal clusters 30 with f1 score 0.12499999999999999
+['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin'
+ 'CabinGrouping']
+0.15
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin'
+ 'CabinGrouping']
+GlobalOptima 0.15
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'CabinGrouping'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.17582417582417584
+['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'CabinGrouping'
+ 'Know_Ticket_Survival_percentage']
+0.17582417582417584
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'CabinGrouping'
+ 'Know_Ticket_Survival_percentage']
+GlobalOptima 0.17582417582417584
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'CabinGrouping' 'Age']
+Optimal clusters 30 with f1 score 0.09615384615384615
+['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'CabinGrouping'
+ 'Know_Ticket_Survival_percentage']
+0.17582417582417584
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'CabinGrouping'
+ 'Know_Ticket_Survival_percentage']
+GlobalOptima 0.17582417582417584
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+Optimal clusters 20 with f1 score 0.20408163265306123
+['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+0.20408163265306123
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+GlobalOptima 0.20408163265306123
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.09195402298850575
+['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+0.20408163265306123
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+GlobalOptima 0.20408163265306123
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Age']
+Optimal clusters 30 with f1 score 0.14953271028037385
+['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+0.20408163265306123
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+GlobalOptima 0.20408163265306123
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.12371134020618556
+['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+0.20408163265306123
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+GlobalOptima 0.20408163265306123
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Married' 'Age']
+Optimal clusters 20 with f1 score 0.02105263157894737
+['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+0.20408163265306123
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+GlobalOptima 0.20408163265306123
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+0.20408163265306123
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+GlobalOptima 0.20408163265306123
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'HasCabin' 'CabinGrouping'
+ 'Pclass']
+Optimal clusters 30 with f1 score 0.04081632653061225
+['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+0.20408163265306123
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+GlobalOptima 0.20408163265306123
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'HasCabin' 'CabinGrouping'
+ 'Married']
+Optimal clusters 20 with f1 score 0.07228915662650602
+['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+0.20408163265306123
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+GlobalOptima 0.20408163265306123
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'HasCabin' 'CabinGrouping'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.04878048780487806
+['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+0.20408163265306123
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+GlobalOptima 0.20408163265306123
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'HasCabin' 'CabinGrouping'
+ 'Age']
+Optimal clusters 30 with f1 score 0.08620689655172414
+['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+0.20408163265306123
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+GlobalOptima 0.20408163265306123
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'HasCabin' 'Pclass' 'Married']
+Optimal clusters 30 with f1 score 0.04081632653061225
+['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+0.20408163265306123
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+GlobalOptima 0.20408163265306123
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'HasCabin' 'Pclass'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.15841584158415845
+['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+0.20408163265306123
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+GlobalOptima 0.20408163265306123
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'HasCabin' 'Pclass' 'Age']
+Optimal clusters 30 with f1 score 0.1348314606741573
+['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+0.20408163265306123
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+GlobalOptima 0.20408163265306123
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'HasCabin' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.06
+['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+0.20408163265306123
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+GlobalOptima 0.20408163265306123
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'HasCabin' 'Married' 'Age']
+Optimal clusters 30 with f1 score 0.1956521739130435
+['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+0.20408163265306123
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+GlobalOptima 0.20408163265306123
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'HasCabin'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.11764705882352941
+['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+0.20408163265306123
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+GlobalOptima 0.20408163265306123
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'CabinGrouping' 'Pclass'
+ 'Married']
+Optimal clusters 20 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+0.20408163265306123
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married']
+GlobalOptima 0.20408163265306123
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.24299065420560745
+['Ticket_percentage_survival' 'Sex' 'Title' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage']
+0.24299065420560745
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage']
+GlobalOptima 0.24299065420560745
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'CabinGrouping' 'Pclass' 'Age']
+Optimal clusters 30 with f1 score 0.10869565217391304
+['Ticket_percentage_survival' 'Sex' 'Title' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage']
+0.24299065420560745
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage']
+GlobalOptima 0.24299065420560745
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'CabinGrouping' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.1626016260162602
+['Ticket_percentage_survival' 'Sex' 'Title' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage']
+0.24299065420560745
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage']
+GlobalOptima 0.24299065420560745
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'CabinGrouping' 'Married'
+ 'Age']
+Optimal clusters 20 with f1 score 0.1
+['Ticket_percentage_survival' 'Sex' 'Title' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage']
+0.24299065420560745
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage']
+GlobalOptima 0.24299065420560745
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'CabinGrouping'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Sex' 'Title' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage']
+0.24299065420560745
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage']
+GlobalOptima 0.24299065420560745
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.17582417582417584
+['Ticket_percentage_survival' 'Sex' 'Title' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage']
+0.24299065420560745
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage']
+GlobalOptima 0.24299065420560745
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+Optimal clusters 20 with f1 score 0.27083333333333337
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.16091954022988506
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Pclass']
+Optimal clusters 20 with f1 score 0.02469135802469136
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Married']
+Optimal clusters 30 with f1 score 0.020202020202020204
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.11881188118811879
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Age']
+Optimal clusters 30 with f1 score 0.15841584158415845
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'HasCabin' 'Pclass' 'Married']
+Optimal clusters 20 with f1 score 0.07843137254901962
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'HasCabin' 'Pclass'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.061224489795918366
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'HasCabin' 'Pclass' 'Age']
+Optimal clusters 30 with f1 score 0.04705882352941177
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'HasCabin' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.11764705882352941
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'HasCabin' 'Married' 'Age']
+Optimal clusters 30 with f1 score 0.12371134020618556
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'HasCabin'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'CabinGrouping' 'Pclass'
+ 'Married']
+Optimal clusters 30 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'CabinGrouping' 'Pclass' 'Age']
+Optimal clusters 30 with f1 score 0.09708737864077671
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'CabinGrouping' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'CabinGrouping' 'Married' 'Age']
+Optimal clusters 20 with f1 score 0.20183486238532108
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'CabinGrouping'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.13953488372093023
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.13953488372093023
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'Pclass' 'Married' 'Age']
+Optimal clusters 30 with f1 score 0.07843137254901962
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'Pclass'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.16822429906542058
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.15730337078651682
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+Optimal clusters 30 with f1 score 0.1702127659574468
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.12499999999999997
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Age']
+Optimal clusters 30 with f1 score 0.04210526315789474
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'HasCabin' 'CabinGrouping' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.15533980582524273
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'HasCabin' 'CabinGrouping' 'Married'
+ 'Age']
+Optimal clusters 30 with f1 score 0.08080808080808081
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'HasCabin' 'CabinGrouping'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.04878048780487806
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'HasCabin' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.08080808080808081
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'HasCabin' 'Pclass' 'Married' 'Age']
+Optimal clusters 30 with f1 score 0.09708737864077671
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'HasCabin' 'Pclass'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.11363636363636363
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'HasCabin' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.08247422680412371
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'CabinGrouping' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.11764705882352941
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'CabinGrouping' 'Pclass' 'Married'
+ 'Age']
+Optimal clusters 30 with f1 score 0.1956521739130435
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.10101010101010101
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'CabinGrouping' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.10309278350515463
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.1276595744680851
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Pclass']
+Optimal clusters 30 with f1 score 0.06976744186046512
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Married']
+Optimal clusters 30 with f1 score 0.09195402298850575
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.14285714285714285
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Age']
+Optimal clusters 30 with f1 score 0.15686274509803924
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'HasCabin' 'Pclass' 'Married']
+Optimal clusters 30 with f1 score 0.14285714285714285
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'HasCabin' 'Pclass'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.10204081632653061
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'HasCabin' 'Pclass' 'Age']
+Optimal clusters 20 with f1 score 0.07228915662650602
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'HasCabin' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.02197802197802198
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'HasCabin' 'Married' 'Age']
+Optimal clusters 30 with f1 score 0.20338983050847456
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'HasCabin'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.0816326530612245
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'CabinGrouping' 'Pclass'
+ 'Married']
+Optimal clusters 30 with f1 score 0.08000000000000002
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.07547169811320756
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'CabinGrouping' 'Pclass'
+ 'Age']
+Optimal clusters 20 with f1 score 0.11363636363636363
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'CabinGrouping' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.15094339622641512
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'CabinGrouping' 'Married'
+ 'Age']
+Optimal clusters 20 with f1 score 0.16091954022988506
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'CabinGrouping'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.1956521739130435
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.02173913043478261
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'Pclass' 'Married' 'Age']
+Optimal clusters 20 with f1 score 0.1
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'Pclass'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.02469135802469136
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.0851063829787234
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+Optimal clusters 30 with f1 score 0.07228915662650602
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.1923076923076923
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Age']
+Optimal clusters 30 with f1 score 0.07339449541284404
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'HasCabin' 'CabinGrouping' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.13953488372093023
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'HasCabin' 'CabinGrouping' 'Married'
+ 'Age']
+Optimal clusters 20 with f1 score 0.07228915662650602
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'HasCabin' 'CabinGrouping'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.0631578947368421
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'HasCabin' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 0 with f1 score 0
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'HasCabin' 'Pclass' 'Married' 'Age']
+Optimal clusters 30 with f1 score 0.08421052631578949
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'HasCabin' 'Pclass'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.09345794392523364
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'HasCabin' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.16091954022988506
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'CabinGrouping' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'CabinGrouping' 'Pclass' 'Married'
+ 'Age']
+Optimal clusters 30 with f1 score 0.1348314606741573
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.13953488372093023
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'CabinGrouping' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.04878048780487806
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.10101010101010101
+['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+0.27083333333333337
+GlobalOptima: ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married' 'Age']
+GlobalOptima 0.27083333333333337
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+Optimal clusters 20 with f1 score 0.3125
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.10416666666666667
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Age']
+Optimal clusters 30 with f1 score 0.1346153846153846
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.16091954022988506
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Married'
+ 'Age']
+Optimal clusters 20 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.10101010101010101
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.13953488372093023
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'Pclass' 'Married' 'Age']
+Optimal clusters 20 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'Pclass'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.01886792452830189
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.08421052631578949
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Fare' 'CabinGrouping' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.04705882352941177
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Fare' 'CabinGrouping' 'Pclass' 'Married'
+ 'Age']
+Optimal clusters 30 with f1 score 0.09195402298850575
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Fare' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.16091954022988506
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Fare' 'CabinGrouping' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.1212121212121212
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Fare' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.12
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married' 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.02469135802469136
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married' 'Age']
+Optimal clusters 30 with f1 score 0.04210526315789474
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.06976744186046512
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'HasCabin' 'CabinGrouping' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.02469135802469136
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'HasCabin' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.06976744186046512
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'CabinGrouping' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass']
+Optimal clusters 30 with f1 score 0.08247422680412371
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'HasCabin' 'CabinGrouping' 'Married']
+Optimal clusters 20 with f1 score 0.13953488372093023
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.1176470588235294
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'HasCabin' 'CabinGrouping' 'Age']
+Optimal clusters 0 with f1 score 0
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'HasCabin' 'Pclass' 'Married']
+Optimal clusters 20 with f1 score 0.02469135802469136
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'HasCabin' 'Pclass'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.16161616161616163
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'HasCabin' 'Pclass' 'Age']
+Optimal clusters 30 with f1 score 0.1238938053097345
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'HasCabin' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.0816326530612245
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'HasCabin' 'Married' 'Age']
+Optimal clusters 20 with f1 score 0.11764705882352941
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'HasCabin' 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.15555555555555553
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'CabinGrouping' 'Pclass' 'Married']
+Optimal clusters 30 with f1 score 0.15555555555555553
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'CabinGrouping' 'Pclass' 'Age']
+Optimal clusters 30 with f1 score 0.1320754716981132
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'CabinGrouping' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.163265306122449
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'CabinGrouping' 'Married' 'Age']
+Optimal clusters 20 with f1 score 0.13725490196078433
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'CabinGrouping' 'Know_Ticket_Survival_percentage'
+ 'Age']
+Optimal clusters 30 with f1 score 0.15238095238095237
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'Pclass' 'Married' 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.17582417582417584
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'Pclass' 'Married' 'Age']
+Optimal clusters 30 with f1 score 0.10084033613445378
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'Pclass' 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.1607142857142857
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'Married' 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.17582417582417584
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'HasCabin' 'CabinGrouping' 'Pclass' 'Married']
+Optimal clusters 30 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.08247422680412371
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'HasCabin' 'CabinGrouping' 'Pclass' 'Age']
+Optimal clusters 30 with f1 score 0.14285714285714285
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'HasCabin' 'CabinGrouping' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.196078431372549
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'HasCabin' 'CabinGrouping' 'Married' 'Age']
+Optimal clusters 20 with f1 score 0.20224719101123595
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'HasCabin' 'CabinGrouping'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.13953488372093023
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'HasCabin' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.10619469026548671
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'HasCabin' 'Pclass' 'Married' 'Age']
+Optimal clusters 20 with f1 score 0.1176470588235294
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'HasCabin' 'Pclass' 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'HasCabin' 'Married' 'Know_Ticket_Survival_percentage'
+ 'Age']
+Optimal clusters 30 with f1 score 0.10204081632653061
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'CabinGrouping' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.1
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'CabinGrouping' 'Pclass' 'Married' 'Age']
+Optimal clusters 30 with f1 score 0.13999999999999999
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'CabinGrouping' 'Pclass' 'Know_Ticket_Survival_percentage'
+ 'Age']
+Optimal clusters 20 with f1 score 0.1
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'CabinGrouping' 'Married' 'Know_Ticket_Survival_percentage'
+ 'Age']
+Optimal clusters 30 with f1 score 0.13999999999999999
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Pclass' 'Married' 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.11363636363636363
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass' 'Married']
+Optimal clusters 20 with f1 score 0.11764705882352941
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.18181818181818182
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass' 'Age']
+Optimal clusters 20 with f1 score 0.11764705882352941
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Fare' 'HasCabin' 'CabinGrouping' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.07920792079207922
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Fare' 'HasCabin' 'CabinGrouping' 'Married' 'Age']
+Optimal clusters 30 with f1 score 0.043010752688172046
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Fare' 'HasCabin' 'CabinGrouping' 'Know_Ticket_Survival_percentage'
+ 'Age']
+Optimal clusters 30 with f1 score 0.0588235294117647
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Fare' 'HasCabin' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.06521739130434782
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Fare' 'HasCabin' 'Pclass' 'Married' 'Age']
+Optimal clusters 30 with f1 score 0.13333333333333333
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Fare' 'HasCabin' 'Pclass' 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.13333333333333333
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Fare' 'HasCabin' 'Married' 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.21505376344086022
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Fare' 'CabinGrouping' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.04210526315789474
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Fare' 'CabinGrouping' 'Pclass' 'Married' 'Age']
+Optimal clusters 20 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Fare' 'CabinGrouping' 'Pclass' 'Know_Ticket_Survival_percentage'
+ 'Age']
+Optimal clusters 20 with f1 score 0.18181818181818182
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Fare' 'CabinGrouping' 'Married' 'Know_Ticket_Survival_percentage'
+ 'Age']
+Optimal clusters 30 with f1 score 0.13953488372093023
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Fare' 'Pclass' 'Married' 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.1276595744680851
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'HasCabin' 'CabinGrouping' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.1978021978021978
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'HasCabin' 'CabinGrouping' 'Pclass' 'Married' 'Age']
+Optimal clusters 30 with f1 score 0.07228915662650602
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.061224489795918366
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'HasCabin' 'CabinGrouping' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.023809523809523808
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'HasCabin' 'Pclass' 'Married' 'Know_Ticket_Survival_percentage'
+ 'Age']
+Optimal clusters 20 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'CabinGrouping' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.1212121212121212
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Title' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass' 'Married']
+Optimal clusters 20 with f1 score 0.10101010101010101
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Title' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.12244897959183673
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Title' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass' 'Age']
+Optimal clusters 30 with f1 score 0.09900990099009901
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Title' 'Fare' 'HasCabin' 'CabinGrouping' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.0631578947368421
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Title' 'Fare' 'HasCabin' 'CabinGrouping' 'Married' 'Age']
+Optimal clusters 20 with f1 score 0.11764705882352941
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Title' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.0425531914893617
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Title' 'Fare' 'HasCabin' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.15555555555555553
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Title' 'Fare' 'HasCabin' 'Pclass' 'Married' 'Age']
+Optimal clusters 20 with f1 score 0.02469135802469136
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Title' 'Fare' 'HasCabin' 'Pclass' 'Know_Ticket_Survival_percentage'
+ 'Age']
+Optimal clusters 20 with f1 score 0.02469135802469136
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Title' 'Fare' 'HasCabin' 'Married' 'Know_Ticket_Survival_percentage'
+ 'Age']
+Optimal clusters 30 with f1 score 0.1348314606741573
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Title' 'Fare' 'CabinGrouping' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.11494252873563218
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Title' 'Fare' 'CabinGrouping' 'Pclass' 'Married' 'Age']
+Optimal clusters 20 with f1 score 0.11764705882352941
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Title' 'Fare' 'CabinGrouping' 'Pclass' 'Know_Ticket_Survival_percentage'
+ 'Age']
+Optimal clusters 20 with f1 score 0.11764705882352941
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Title' 'Fare' 'CabinGrouping' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.023809523809523808
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Title' 'Fare' 'Pclass' 'Married' 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.15384615384615383
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Title' 'HasCabin' 'CabinGrouping' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.08421052631578949
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Title' 'HasCabin' 'CabinGrouping' 'Pclass' 'Married' 'Age']
+Optimal clusters 30 with f1 score 0.10204081632653061
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Title' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.1348314606741573
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Title' 'HasCabin' 'CabinGrouping' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.10416666666666667
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Title' 'HasCabin' 'Pclass' 'Married' 'Know_Ticket_Survival_percentage'
+ 'Age']
+Optimal clusters 30 with f1 score 0.163265306122449
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Title' 'CabinGrouping' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.11363636363636363
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Fare' 'HasCabin' 'CabinGrouping' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Fare' 'HasCabin' 'CabinGrouping' 'Pclass' 'Married' 'Age']
+Optimal clusters 30 with f1 score 0.16161616161616163
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.17582417582417584
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Fare' 'HasCabin' 'CabinGrouping' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.15909090909090906
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Fare' 'HasCabin' 'Pclass' 'Married' 'Know_Ticket_Survival_percentage'
+ 'Age']
+Optimal clusters 20 with f1 score 0.13953488372093023
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Fare' 'CabinGrouping' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.10989010989010987
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['HasCabin' 'CabinGrouping' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.07228915662650602
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin'
+ 'CabinGrouping' 'Pclass']
+Optimal clusters 20 with f1 score 0.13953488372093023
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin'
+ 'CabinGrouping' 'Married']
+Optimal clusters 30 with f1 score 0.1212121212121212
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin'
+ 'CabinGrouping' 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.11764705882352941
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin'
+ 'CabinGrouping' 'Age']
+Optimal clusters 30 with f1 score 0.01785714285714286
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin' 'Pclass'
+ 'Married']
+Optimal clusters 30 with f1 score 0.18867924528301888
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin' 'Pclass'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.11764705882352941
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin' 'Pclass'
+ 'Age']
+Optimal clusters 30 with f1 score 0.10416666666666667
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.12
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin' 'Married'
+ 'Age']
+Optimal clusters 20 with f1 score 0.08547008547008547
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.15909090909090906
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'CabinGrouping'
+ 'Pclass' 'Married']
+Optimal clusters 30 with f1 score 0.04705882352941177
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'CabinGrouping'
+ 'Pclass' 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.08421052631578949
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'CabinGrouping'
+ 'Pclass' 'Age']
+Optimal clusters 30 with f1 score 0.1956521739130435
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'CabinGrouping'
+ 'Married' 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.2380952380952381
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'CabinGrouping'
+ 'Married' 'Age']
+Optimal clusters 20 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'CabinGrouping'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.06382978723404255
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.13953488372093023
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married'
+ 'Age']
+Optimal clusters 20 with f1 score 0.11764705882352941
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.18181818181818182
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.14736842105263157
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'HasCabin' 'CabinGrouping'
+ 'Pclass' 'Married']
+Optimal clusters 20 with f1 score 0.11764705882352941
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'HasCabin' 'CabinGrouping'
+ 'Pclass' 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.1348314606741573
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'HasCabin' 'CabinGrouping'
+ 'Pclass' 'Age']
+Optimal clusters 30 with f1 score 0.04040404040404041
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'HasCabin' 'CabinGrouping'
+ 'Married' 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.1
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'HasCabin' 'CabinGrouping'
+ 'Married' 'Age']
+Optimal clusters 20 with f1 score 0.11764705882352941
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'HasCabin' 'CabinGrouping'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 0 with f1 score 0
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'HasCabin' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.1777777777777778
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'HasCabin' 'Pclass' 'Married'
+ 'Age']
+Optimal clusters 30 with f1 score 0.16822429906542058
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'HasCabin' 'Pclass'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.09900990099009901
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'HasCabin' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.2
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'CabinGrouping' 'Pclass'
+ 'Married' 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.09900990099009901
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'CabinGrouping' 'Pclass'
+ 'Married' 'Age']
+Optimal clusters 30 with f1 score 0.1212121212121212
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.15
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'CabinGrouping' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.1414141414141414
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.11538461538461538
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Pclass' 'Married']
+Optimal clusters 20 with f1 score 0.1348314606741573
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Pclass' 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.02469135802469136
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Pclass' 'Age']
+Optimal clusters 30 with f1 score 0.15533980582524273
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Married' 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.10416666666666667
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Married' 'Age']
+Optimal clusters 20 with f1 score 0.11764705882352941
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.14285714285714288
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'HasCabin' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.1238938053097345
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'HasCabin' 'Pclass' 'Married'
+ 'Age']
+Optimal clusters 30 with f1 score 0.09345794392523364
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'HasCabin' 'Pclass'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.059405940594059396
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'HasCabin' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.14285714285714285
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'CabinGrouping' 'Pclass'
+ 'Married' 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.0631578947368421
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'CabinGrouping' 'Pclass'
+ 'Married' 'Age']
+Optimal clusters 20 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.04705882352941177
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'CabinGrouping' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.15533980582524273
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.1348314606741573
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married' 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married' 'Age']
+Optimal clusters 20 with f1 score 0.02469135802469136
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.0980392156862745
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'HasCabin' 'CabinGrouping' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.04166666666666667
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'HasCabin' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.03571428571428572
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'CabinGrouping' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.05714285714285714
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Pclass' 'Married']
+Optimal clusters 30 with f1 score 0.10752688172043011
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Pclass' 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.1111111111111111
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Pclass' 'Age']
+Optimal clusters 20 with f1 score 0.02469135802469136
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Married' 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Married' 'Age']
+Optimal clusters 0 with f1 score 0
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.16091954022988506
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'HasCabin' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.04878048780487806
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'HasCabin' 'Pclass' 'Married'
+ 'Age']
+Optimal clusters 30 with f1 score 0.041237113402061855
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'HasCabin' 'Pclass'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'HasCabin' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 0 with f1 score 0
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'CabinGrouping' 'Pclass'
+ 'Married' 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'CabinGrouping' 'Pclass'
+ 'Married' 'Age']
+Optimal clusters 30 with f1 score 0.043010752688172046
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.07619047619047618
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'CabinGrouping' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.061224489795918366
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.11764705882352941
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married' 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.0980392156862745
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married' 'Age']
+Optimal clusters 30 with f1 score 0.058252427184466014
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.06382978723404255
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'HasCabin' 'CabinGrouping' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.1
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'HasCabin' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.2
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'CabinGrouping' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.1777777777777778
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married' 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.1176470588235294
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married' 'Age']
+Optimal clusters 30 with f1 score 0.11363636363636363
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.15686274509803924
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.04444444444444445
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.11764705882352941
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Fare' 'CabinGrouping' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married' 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.08421052631578949
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass' 'Married']
+Optimal clusters 30 with f1 score 0.03508771929824561
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.19801980198019803
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass' 'Age']
+Optimal clusters 30 with f1 score 0.06249999999999999
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'HasCabin' 'CabinGrouping' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.12371134020618556
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'HasCabin' 'CabinGrouping' 'Married' 'Age']
+Optimal clusters 30 with f1 score 0.02173913043478261
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.0980392156862745
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'HasCabin' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.08080808080808081
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'HasCabin' 'Pclass' 'Married' 'Age']
+Optimal clusters 20 with f1 score 0.1348314606741573
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'HasCabin' 'Pclass'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.11363636363636363
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'HasCabin' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.09195402298850575
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'CabinGrouping' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'CabinGrouping' 'Pclass' 'Married' 'Age']
+Optimal clusters 30 with f1 score 0.23076923076923075
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.13999999999999999
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'CabinGrouping' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.25925925925925924
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'Pclass' 'Married' 'Know_Ticket_Survival_percentage'
+ 'Age']
+Optimal clusters 30 with f1 score 0.08247422680412371
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'HasCabin' 'CabinGrouping' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.09433962264150944
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'HasCabin' 'CabinGrouping' 'Pclass' 'Married' 'Age']
+Optimal clusters 20 with f1 score 0.02469135802469136
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.18181818181818182
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'HasCabin' 'CabinGrouping' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.09195402298850575
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'HasCabin' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.02469135802469136
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'CabinGrouping' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.13953488372093023
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass' 'Married' 'Age']
+Optimal clusters 20 with f1 score 0.18181818181818182
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.04705882352941177
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Fare' 'HasCabin' 'CabinGrouping' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.12244897959183673
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Fare' 'HasCabin' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.08421052631578949
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Fare' 'CabinGrouping' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.11764705882352941
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'HasCabin' 'CabinGrouping' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.15533980582524273
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Title' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.20224719101123595
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Title' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass' 'Married' 'Age']
+Optimal clusters 30 with f1 score 0.18181818181818182
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Title' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Title' 'Fare' 'HasCabin' 'CabinGrouping' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.15384615384615383
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Title' 'Fare' 'HasCabin' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.16091954022988506
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Title' 'Fare' 'CabinGrouping' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.02469135802469136
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Title' 'HasCabin' 'CabinGrouping' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.0606060606060606
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Fare' 'HasCabin' 'CabinGrouping' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin'
+ 'CabinGrouping' 'Pclass' 'Married']
+Optimal clusters 20 with f1 score 0.18518518518518517
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin'
+ 'CabinGrouping' 'Pclass' 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.02469135802469136
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin'
+ 'CabinGrouping' 'Pclass' 'Age']
+Optimal clusters 30 with f1 score 0.06249999999999999
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin'
+ 'CabinGrouping' 'Married' 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.17582417582417584
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin'
+ 'CabinGrouping' 'Married' 'Age']
+Optimal clusters 30 with f1 score 0.18867924528301888
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin'
+ 'CabinGrouping' 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.12
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin' 'Pclass'
+ 'Married' 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.08421052631578949
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin' 'Pclass'
+ 'Married' 'Age']
+Optimal clusters 30 with f1 score 0.1414141414141414
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin' 'Pclass'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.09195402298850575
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.11650485436893203
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'CabinGrouping'
+ 'Pclass' 'Married' 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.041237113402061855
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'CabinGrouping'
+ 'Pclass' 'Married' 'Age']
+Optimal clusters 30 with f1 score 0.0606060606060606
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'CabinGrouping'
+ 'Pclass' 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.11764705882352941
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'CabinGrouping'
+ 'Married' 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.13953488372093023
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.06976744186046512
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'HasCabin' 'CabinGrouping'
+ 'Pclass' 'Married' 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.07766990291262137
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'HasCabin' 'CabinGrouping'
+ 'Pclass' 'Married' 'Age']
+Optimal clusters 30 with f1 score 0.15517241379310345
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'HasCabin' 'CabinGrouping'
+ 'Pclass' 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.15789473684210528
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'HasCabin' 'CabinGrouping'
+ 'Married' 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.1212121212121212
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'HasCabin' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.1276595744680851
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'CabinGrouping' 'Pclass'
+ 'Married' 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.12371134020618556
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Pclass' 'Married' 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.11881188118811879
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Pclass' 'Married' 'Age']
+Optimal clusters 30 with f1 score 0.03669724770642202
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Pclass' 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.13953488372093023
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Married' 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.03773584905660378
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'HasCabin' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.15730337078651682
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'CabinGrouping' 'Pclass'
+ 'Married' 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.13861386138613863
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married' 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.11764705882352941
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Pclass' 'Married' 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.13592233009708735
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Pclass' 'Married' 'Age']
+Optimal clusters 20 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Pclass' 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.06185567010309278
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Married' 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.02173913043478261
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'HasCabin' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.08000000000000002
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'CabinGrouping' 'Pclass'
+ 'Married' 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.20224719101123595
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married' 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.05504587155963303
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married' 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.11363636363636363
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage']
+Optimal clusters 30 with f1 score 0.10526315789473684
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass' 'Married' 'Age']
+Optimal clusters 30 with f1 score 0.1176470588235294
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.01834862385321101
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'HasCabin' 'CabinGrouping' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.07228915662650602
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'HasCabin' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'CabinGrouping' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.10909090909090907
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'HasCabin' 'CabinGrouping' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.1935483870967742
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.08421052631578949
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Title' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.07920792079207922
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin'
+ 'CabinGrouping' 'Pclass' 'Married' 'Know_Ticket_Survival_percentage']
+Optimal clusters 20 with f1 score 0.04878048780487806
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin'
+ 'CabinGrouping' 'Pclass' 'Married' 'Age']
+Optimal clusters 30 with f1 score 0.0816326530612245
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin'
+ 'CabinGrouping' 'Pclass' 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.20224719101123595
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin'
+ 'CabinGrouping' 'Married' 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.18181818181818182
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin' 'Pclass'
+ 'Married' 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.19417475728155342
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'CabinGrouping'
+ 'Pclass' 'Married' 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'HasCabin' 'CabinGrouping'
+ 'Pclass' 'Married' 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Pclass' 'Married' 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.13953488372093023
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Title' 'Fare' 'HasCabin' 'CabinGrouping'
+ 'Pclass' 'Married' 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 30 with f1 score 0.19417475728155342
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Sex' 'Title' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass' 'Married'
+ 'Know_Ticket_Survival_percentage' 'Age']
+Optimal clusters 20 with f1 score 0.09523809523809523
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
+---------------------
+Optimising feature Set ['Ticket_percentage_survival' 'Sex' 'Title' 'Fare' 'HasCabin'
+ 'CabinGrouping' 'Pclass' 'Married' 'Know_Ticket_Survival_percentage'
+ 'Age']
+Optimal clusters 30 with f1 score 0.059405940594059396
+['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+0.3125
+GlobalOptima: ['Ticket_percentage_survival' 'Fare' 'HasCabin' 'CabinGrouping' 'Pclass'
+ 'Married']
+GlobalOptima 0.3125
