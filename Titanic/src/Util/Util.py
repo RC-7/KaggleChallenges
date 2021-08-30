@@ -1,18 +1,13 @@
 import json
 import numpy as np
 import pandas as pd
+import bisect
 
-# import tensorflow as tf
-import sklearn.model_selection
 from matplotlib import pyplot as plt
 from sklearn import preprocessing
 from sklearn.model_selection import validation_curve, GridSearchCV
-import bisect
 from sklearn.model_selection import cross_val_score
 from sklearn.neural_network import MLPRegressor
-import seaborn as sns
-from sklearn.cluster import KMeans
-import bisect
 
 
 def group_by_sub_string(original_string, list_of_sub_strings):
@@ -112,11 +107,16 @@ class Util:
             dict.fromkeys(['Dr', 'Col', 'Major', 'Jonkheer', 'Capt', 'Sir', 'Don', 'Rev']
                           , 'Special'))
 
+        # self.fullDf[['Title']] = self.fullDf[['Title']].replace(
+        #     dict.fromkeys(['Don', 'Rev']
+        #                   , 'Clergy'))
+
         self.fullDf["Cabin"] = self.fullDf["Cabin"].fillna("Unknown")
         cabin_grouping = ['A', 'B', 'C', 'D', 'E', 'F', 'T', 'G', 'Unknown']
         self.fullDf['CabinGrouping'] = self.fullDf['Cabin'].map(lambda x: group_by_sub_string(x, cabin_grouping))
         self.fullDf['HasCabin'] = self.fullDf['CabinGrouping'].map(lambda x: 1 if x != 'Unknown' else 0)
-        features_for_onehot_encoding = ["Title", "Pclass", "Embarked", "CabinGrouping"]
+        self.fullDf.drop('CabinGrouping', inplace=True, axis=1)
+        features_for_onehot_encoding = ["Title", "Pclass", "Embarked"]
 
         self.fullDf['Sex'].replace({"female": 1, "male": 0}, inplace=True)
 
@@ -132,7 +132,10 @@ class Util:
         self.fullDf['Fare'] = self.fullDf['Fare'].fillna(med_fare)
         self.fullDf = onehot_encoding(self.fullDf, features_for_onehot_encoding)
 
-        self.fullDf['Fare'] = pd.qcut(self.fullDf['Fare'], 9, labels=False, precision=0)  # Might not be needed for MLP
+
+        self.fullDf.drop('SibSp', inplace=True, axis=1)
+        self.fullDf.drop('Parch', inplace=True, axis=1)
+
 
         [x_train, x_test] = extract_datasets(self.fullDf)
 
@@ -160,11 +163,11 @@ class Util:
         age_predictions = mlr.predict(X_predict_age).tolist()
         self.fullDf["Age"][Age_None_list] = age_predictions
 
-        [self.x_train, self.x_test] = extract_datasets(self.fullDf)
-        # age_bins_9intervals = [10, 18, 25, 30, 27, 45, 55, 67]
         # age_bins_4intervals = [14, 28.5, 43]
-        # self.fullDf['Age'] = self.fullDf['Age'].map(lambda x: bisect.bisect_left(age_bins_9intervals, x))
+        age_bins_9intervals = [10, 18, 25, 30, 27, 45, 55, 67]
+        self.fullDf['Age'] = self.fullDf['Age'].map(lambda x: bisect.bisect_left(age_bins_9intervals, x))
         # self.fullDf = onehot_encoding(self.fullDf, ['Age'])
+
         [self.x_train, self.x_test] = extract_datasets(self.fullDf)
         self.y_train = x_train[['Survived']]
         self.fullDf.drop('Survived', inplace=True, axis=1)

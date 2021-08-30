@@ -1,0 +1,124 @@
+GridSearchCV(cv=3, estimator=MLPClassifier(), n_jobs=-1,
+             param_grid={'activation': ['tanh', 'relu'],
+                         'alpha': [0.0001, 0.05],
+                         'hidden_layer_sizes': [(50, 50), (5, 3), (1, 5),
+                                                (50, 50, 50), (100,)],
+                         'learning_rate': ['constant', 'adaptive'],
+                         'max_iter': [500, 1000, 10000],
+                         'solver': ['sgd', 'adam', 'lbfgs']},
+             verbose=1)
+params 
+{'activation': 'tanh', 'alpha': 0.05, 'hidden_layer_sizes': (1, 5), 'learning_rate': 'constant', 'max_iter': 500, 'solver': 'lbfgs'}
+estimator 
+MLPClassifier(activation='tanh', alpha=0.05, hidden_layer_sizes=(1, 5),
+              max_iter=500, solver='lbfgs')
+index
+128
+score
+0.8327721661054994
+GridSearchCV(cv=3, estimator=MLPClassifier(random_state=1), n_jobs=-1,
+             param_grid={'activation': ['tanh'], 'alpha': [0.0001, 0.02, 0.05],
+                         'hidden_layer_sizes': [(50, 50), (5, 3), (1, 5),
+                                                (2, 5)],
+                         'learning_rate': ['constant'],
+                         'max_iter': [10, 50, 100, 300],
+                         'solver': ['adam', 'lbfgs']},
+             verbose=1)
+params 
+{'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (5, 3), 'learning_rate': 'constant', 'max_iter': 100, 'solver': 'lbfgs'}
+estimator 
+MLPClassifier(activation='tanh', alpha=0.02, hidden_layer_sizes=(5, 3),
+              max_iter=100, random_state=1, solver='lbfgs')
+index
+45
+score
+0.8338945005611672
+
+Optimal params {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (5, 3), 'learning_rate': 'constant', 'max_iter': 100, 'solver': 'lbfgs'}
+Cross Validation score [0.81005587 0.78089888 0.84269663 0.79213483 0.81460674]
+self Score 0.8787878787878788GridSearchCV(cv=3, estimator=MLPClassifier(random_state=1), n_jobs=-1,
+             param_grid={'activation': ['tanh'], 'alpha': [0.0001, 0.02, 0.05],
+                         'hidden_layer_sizes': [(5, 3), (17, 17), (17, 3),
+                                                (18, 18), (16, 16, 3)],
+                         'learning_rate': ['constant'],
+                         'max_iter': [10, 50, 100, 300],
+                         'solver': ['adam', 'lbfgs']},
+             verbose=1)
+params 
+{'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 300, 'solver': 'lbfgs'}
+estimator 
+MLPClassifier(activation='tanh', alpha=0.02, hidden_layer_sizes=(17, 3),
+              max_iter=300, random_state=1, solver='lbfgs')
+index
+63
+score
+0.8395061728395062
+GridSearchCV(cv=3, estimator=MLPClassifier(random_state=1), n_jobs=-1,
+             param_grid={'activation': ['tanh'], 'alpha': [0.0001, 0.02, 0.05],
+                         'hidden_layer_sizes': [(17, 17), (17, 17, 3), (17, 3),
+                                                (18, 18, 3), (18, 18),
+                                                (16, 16, 3)],
+                         'learning_rate': ['constant'],
+                         'max_iter': [10, 50, 100, 300, 500, 1000],
+                         'solver': ['lbfgs']},
+             verbose=1)
+params 
+{'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 300, 'solver': 'lbfgs'}
+estimator 
+MLPClassifier(activation='tanh', alpha=0.02, hidden_layer_sizes=(17, 3),
+              max_iter=300, random_state=1, solver='lbfgs')
+index
+51
+score
+0.8395061728395062
+GridSearchCV(cv=3, estimator=MLPClassifier(random_state=1), n_jobs=-1,
+             param_grid={'activation': ['tanh'], 'alpha': [0.0001, 0.02],
+                         'hidden_layer_sizes': [(17, 3), (17, 17, 17, 17, 17),
+                                                (17, 17, 17, 17, 17, 3),
+                                                (18, 18, 18, 18, 18)],
+                         'learning_rate': ['constant'],
+                         'max_iter': [10, 50, 100, 300, 500, 1000, 1500],
+                         'solver': ['lbfgs']},
+             verbose=1)
+params 
+{'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 300, 'solver': 'lbfgs'}
+estimator 
+MLPClassifier(activation='tanh', alpha=0.02, hidden_layer_sizes=(17, 3),
+              max_iter=300, random_state=1, solver='lbfgs')
+index
+31
+score
+0.8395061728395062
+GridSearchCV(cv=3, estimator=MLPClassifier(random_state=1), n_jobs=-1,
+             param_grid={'activation': ['tanh'], 'alpha': [0.0001, 0.02],
+                         'hidden_layer_sizes': [(17, 3), (17, 2), (17, 4)],
+                         'learning_rate': ['constant'],
+                         'max_iter': [10, 50, 100, 300, 500, 1000, 1500],
+                         'solver': ['lbfgs', 'sgd']},
+             verbose=1)
+params 
+{'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 300, 'solver': 'lbfgs'}
+estimator 
+MLPClassifier(activation='tanh', alpha=0.02, hidden_layer_sizes=(17, 3),
+              max_iter=300, random_state=1, solver='lbfgs')
+index
+48
+score
+0.8395061728395062
+GridSearchCV(cv=3, estimator=MLPClassifier(random_state=1), n_jobs=-1,
+             param_grid={'activation': ['tanh'], 'alpha': [0.0001, 0.02],
+                         'hidden_layer_sizes': [(17, 3), (16, 3), (16, 16, 16),
+                                                (16,), (16, 16, 16, 3)],
+                         'learning_rate': ['constant'],
+                         'max_iter': [10, 50, 100, 300, 500, 1000, 1500],
+                         'solver': ['lbfgs']},
+             verbose=1)
+params 
+{'activation': 'tanh', 'alpha': 0.0001, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 100, 'solver': 'lbfgs'}
+estimator 
+MLPClassifier(activation='tanh', hidden_layer_sizes=(17, 3), max_iter=100,
+              random_state=1, solver='lbfgs')
+index
+2
+score
+0.8383838383838383

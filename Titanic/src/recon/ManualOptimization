@@ -1,0 +1,60 @@
+New local min found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 10, 'solver': 'lbfgs', 'random_state': 1}
+New local mean found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 10, 'solver': 'lbfgs', 'random_state': 1}
+New local min found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 50, 'solver': 'lbfgs', 'random_state': 1}
+New local mean found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 50, 'solver': 'lbfgs', 'random_state': 1}
+New local min found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 100, 'solver': 'lbfgs', 'random_state': 1}
+New local mean found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 100, 'solver': 'lbfgs', 'random_state': 1}
+New local min found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 500, 'solver': 'lbfgs', 'random_state': 1}
+New local mean found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 500, 'solver': 'lbfgs', 'random_state': 1}
+New local min found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 1000, 'solver': 'lbfgs', 'random_state': 1}
+New local mean found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 1000, 'solver': 'lbfgs', 'random_state': 1}
+Global min found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 1000, 'solver': 'lbfgs', 'random_state': 1}
+Global mean found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 1000, 'solver': 'lbfgs', 'random_state': 1}
+---------------------------------------------------------------------------------------------------------------------------------New local min found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 10, 'solver': 'lbfgs', 'random_state': 1, 'verbose': 0}
+Min score  0.7865168539325843
+New local mean found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 10, 'solver': 'lbfgs', 'random_state': 1, 'verbose': 0}
+Mean score  0.813684012303057
+New local min found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 50, 'solver': 'lbfgs', 'random_state': 1, 'verbose': 0}
+Min score  0.7921348314606742
+New local mean found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 50, 'solver': 'lbfgs', 'random_state': 1, 'verbose': 0}
+Mean score  0.8305002824681439
+New local min found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 100, 'solver': 'lbfgs', 'random_state': 1, 'verbose': 0}
+Min score  0.7752808988764045
+New local mean found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 100, 'solver': 'lbfgs', 'random_state': 1, 'verbose': 0}
+Mean score  0.8293766869625259
+New local min found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 500, 'solver': 'lbfgs', 'random_state': 1, 'verbose': 0}
+Min score  0.7696629213483146
+New local mean found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 500, 'solver': 'lbfgs', 'random_state': 1, 'verbose': 0}
+Mean score  0.8260121775155357
+New local min found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 1000, 'solver': 'lbfgs', 'random_state': 1, 'verbose': 0}
+Min score  0.7752808988764045
+New local mean found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 1000, 'solver': 'lbfgs', 'random_state': 1, 'verbose': 0}
+Mean score  0.8248948590797816
+Global min found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 1000, 'solver': 'lbfgs', 'random_state': 1, 'verbose': 0}
+Global mean found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 1000, 'solver': 'lbfgs', 'random_state': 1, 'verbose': 0}
+-----------------------------------------------------------------------------------------------------------------------New local min found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 1000, 'solver': 'lbfgs', 'random_state': 1, 'verbose': 0}
+Min score  0.7752808988764045
+New local mean found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 1000, 'solver': 'lbfgs', 'random_state': 1, 'verbose': 0}
+Mean score  0.8248948590797816
+New local min found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 1500, 'solver': 'lbfgs', 'random_state': 1, 'verbose': 0}
+Min score  0.7640449438202247
+New local mean found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 1500, 'solver': 'lbfgs', 'random_state': 1, 'verbose': 0}
+Mean score  0.8204004770573097
+Global min found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 1500, 'solver': 'lbfgs', 'random_state': 1, 'verbose': 0}
+Global mean found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 1500, 'solver': 'lbfgs', 'random_state': 1, 'verbose': 0}
+New local min found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 5, 'solver': 'lbfgs', 'random_state': 1, 'verbose': 0}
+Min score  0.7752808988764045
+New local mean found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 5, 'solver': 'lbfgs', 'random_state': 1, 'verbose': 0}
+Mean score  0.8147950536689473
+New local min found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 10, 'solver': 'lbfgs', 'random_state': 1, 'verbose': 0}
+Min score  0.7865168539325843
+New local mean found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 30, 'solver': 'lbfgs', 'random_state': 1, 'verbose': 0}
+Mean score  0.8271232188814261
+New local min found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 40, 'solver': 'lbfgs', 'random_state': 1, 'verbose': 0}
+Min score  0.797752808988764
+New local mean found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 40, 'solver': 'lbfgs', 'random_state': 1, 'verbose': 0}
+Mean score  0.8383717280773335
+Global min found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 40, 'solver': 'lbfgs', 'random_state': 1, 'verbose': 0}
+Global min  0.797752808988764
+Global mean found at  {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17, 3), 'learning_rate': 'constant', 'max_iter': 40, 'solver': 'lbfgs', 'random_state': 1, 'verbose': 0}
+Global mean  0.8383717280773335
