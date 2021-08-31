@@ -2,11 +2,11 @@ ___Titanic submissions___
 ===========================
 __Scores for the [Titanic Kaggle competition](https://www.kaggle.com/c/titanic/overview)__
 -
-| Model | Best Score (On Test set)    | Parameters | Features |
-| ----- | ----- | ---------- | -------- |
-| Neural Network | 80.861 % | {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17,), 'learning_rate': 'constant', 'max_iter': 20, 'solver': 'lbfgs', 'random_state': 1} | ['Sex', 'Age', 'Fare', 'Married', 'HasCabin', 'Title_Master','Title_Miss', 'Title_Mr', 'Title_Special', 'Pclass_1', 'Pclass_2', 'Pclass_3', 'Embarked_C', 'Embarked_Q', 'Embarked_S'] |
-| Random Forrest | 78.708 % | {'max_depth': 7, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100,'random_state': 100, 'max_features': 'auto', 'criterion': 'entropy'} | ["Sex", "Title", "Fare", "HasCabin", "Pclass", "Married", "Embarked", "Ticket_Frequency", "SibSp", "CabinGrouping", "Parch" ] |
-| Kmeans | 77.511 % | {'n_clusters': 200, 'n_init': 200, 'max_iter': 1000, 'init': 'random'}|["Sex", "Title", "Fare", "HasCabin", "Pclass", "Married", "Embarked", "Ticket_Frequency", "SibSp", "CabinGrouping", "Parch" ] |
+| Model | Best Score (Test set)   | Corresponding Training Set Accuracy | Parameters | Features |
+| ----- | ----- | ------------------- | ---------------- | -------- |
+| Neural Network | 80.861 % (Top 1 % when submitted) | 84.511 % | {'activation': 'tanh', 'alpha': 0.02, 'hidden_layer_sizes': (17,), 'learning_rate': 'constant', 'max_iter': 20, 'solver': 'lbfgs', 'random_state': 1} | ['Sex', 'Age', 'Fare', 'Married', 'HasCabin', 'Title_Master','Title_Miss', 'Title_Mr', 'Title_Special', 'Pclass_1', 'Pclass_2', 'Pclass_3', 'Embarked_C', 'Embarked_Q', 'Embarked_S'] |
+| Random Forrest | 78.708 % |  95.061 % |{'max_depth': 7, 'min_samples_leaf': 1, 'min_samples_split': 2, 'n_estimators': 100,'random_state': 100, 'max_features': 'auto', 'criterion': 'entropy'} | ["Sex", "Title", "Fare", "HasCabin", "Pclass", "Married", "Embarked", "Ticket_Frequency", "SibSp", "CabinGrouping", "Parch" ] |
+| Kmeans | 77.511 % | 86.756 % |{'n_clusters': 200, 'n_init': 200, 'max_iter': 1000, 'init': 'random'}|["Sex", "Title", "Fare", "HasCabin", "Pclass", "Married", "Embarked", "Ticket_Frequency", "SibSp", "CabinGrouping", "Parch" ] |
 
 ## __Brief Summary of feature Engineering employed in the best submissions__
 - One hot encoding for a number of the features that could be grouped
