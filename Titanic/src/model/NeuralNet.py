@@ -87,7 +87,7 @@ def main():
         overall_predictions = mlp.predict(X_test)
         predictions_train = mlp.predict(X).astype(int)
         f1 = f1_score(y, predictions_train)
-        accuracy = accuracy_score(y,predictions_train)
+        accuracy = accuracy_score(y, predictions_train)
 
         # Evaluating model as a sanity check before submitting
         cv_scores_mean = []

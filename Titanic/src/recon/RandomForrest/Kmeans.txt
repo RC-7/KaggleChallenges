@@ -1,0 +1,35 @@
+GridSearchCV(cv=3, estimator=KMeans(init='random', max_iter=1000), n_jobs=-1,
+             param_grid={'n_clusters': [2, 4, 10, 50, 100, 150, 200]},
+             verbose=1)
+params 
+{'n_clusters': 200}
+estimator 
+KMeans(init='random', max_iter=1000, n_clusters=200)
+index
+6
+score
+-143.49161935884857
+GridSearchCV(cv=3, estimator=KMeans(init='random'), n_jobs=-1,
+             param_grid={'max_iter': [10, 20, 100, 200, 500, 1000],
+                         'n_clusters': [2, 4, 10, 50, 100, 150, 200]},
+             verbose=1)
+params 
+{'max_iter': 200, 'n_clusters': 200}
+estimator 
+KMeans(init='random', max_iter=200, n_clusters=200)
+index
+27
+score
+-140.36041106127232
+GridSearchCV(cv=3, estimator=KMeans(init='random'), n_jobs=-1,
+             param_grid={'max_iter': [10, 20, 100, 200, 500, 1000],
+                         'n_clusters': [2, 4, 10, 50, 100, 150, 200]},
+             verbose=1)
+params 
+{'max_iter': 100, 'n_clusters': 200}
+estimator 
+KMeans(init='random', max_iter=100, n_clusters=200)
+index
+20
+score
+-142.28860986867042
