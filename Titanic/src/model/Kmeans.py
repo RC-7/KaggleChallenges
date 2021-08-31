@@ -13,7 +13,6 @@ from Titanic.src.Util.Util import get_validation_curve
 #  new Features
 def main():
     util = Util()
-    util = Util()
     [X, y, X_test] = util.get_df()
     X.drop('Survived', inplace=True, axis=1)
     X_test.drop('Survived', inplace=True, axis=1)
@@ -38,21 +37,21 @@ def main():
         print('Cross Validation score %s' % cv_score)
         print('self Score %s' % str(self_score))
 
-        # n_clusters = range(2, 100, 10)
-        # p = {'n_init': 100, 'max_iter': 1000, 'init': 'random'}
-        # get_validation_curve(n_clusters, 'n_clusters', KMeans(p), X, y)
-        # num_clusters = 50
-        # loss = []
-        # for i in range(2, 100, 2):
-        #     params = {'n_clusters': i, 'n_init': 100, 'max_iter': 1000, 'init': 'random'}
-        #     model = KMeans(**params)
-        #     model.fit(X)
-        #     loss.append(abs(model.inertia_))
-        # #     TODO add Axis and figure label here
-        # fig = plt.figure()
-        # ax = plt.axes()
-        # ax.plot(range(2, 100, 2), loss)
-        # plt.show()
+        n_clusters = range(2, 100, 10)
+        p = {'n_init': 100, 'max_iter': 1000, 'init': 'random'}
+        get_validation_curve(n_clusters, 'n_clusters', KMeans(p), X, y)
+        num_clusters = 50
+        loss = []
+        for i in range(2, 100, 2):
+            params = {'n_clusters': i, 'n_init': 100, 'max_iter': 1000, 'init': 'random'}
+            model = KMeans(**params)
+            model.fit(X)
+            loss.append(abs(model.inertia_))
+        #     TODO add Axis and figure label here
+        fig = plt.figure()
+        ax = plt.axes()
+        ax.plot(range(2, 100, 2), loss)
+        plt.show()
 
         # print(loss)
         # TODO RE-implement
@@ -99,13 +98,17 @@ def main():
         df['Survived'] = model.predict(X_test)
         overall_predictions = df.Survived.map(mapper).astype(np.int)
 
-        accuracy = accuracy_score(y, X['Cluster'].map(mapper).astype(np.int))
+        input_predictions = X['Cluster'].map(mapper).astype(np.int)
+
+        accuracy = accuracy_score(y, input_predictions)
 
         print("|     accuracy score on train data: %s     |" % str(accuracy))
 
         print("|    Percentage Survived test set %s       |" % str(overall_predictions.sum()/len(overall_predictions)))
 
         print("|     Percentage Survived training set %s   |" % str(y.sum()/len(y)))
+        print("|     Predicted Percentage Survived training set %s   |" % str(input_predictions.sum()
+                                                                              / len(input_predictions)))
 
         output = pd.DataFrame({'PassengerId': df.PassengerId, 'Survived': overall_predictions})
         output.to_csv('../../predictions/Kmeans.csv', index=False)
